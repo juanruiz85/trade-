@@ -1,0 +1,54 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.dodo_ta.camera": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "anim_1": "math.random(0.0, 1.0) < 0.2" },
+                        { "anim_2": "math.random(0.0, 1.0) >= 0.2 && math.random(0.0, 1.0) < 0.4" },
+                        { "anim_3": "math.random(0.0, 1.0) >= 0.4 && math.random(0.0, 1.0) < 0.6" },
+                        { "anim_4": "math.random(0.0, 1.0) >= 0.6 && math.random(0.0, 1.0) < 0.8" },
+                        { "anim_5": "math.random(0.0, 1.0) >= 0.8" }
+                    ],
+					"blend_transition": 0.3
+                },
+                "anim_1": {
+					"animations" : [ "anim_1" ],
+                    "transitions": [
+                        { "default": "query.all_animations_finished" }
+					],
+					"blend_transition": 0.3
+				},
+                "anim_2": {
+					"animations" : [ "anim_2" ],
+                    "transitions": [
+                        { "default": "query.all_animations_finished" }
+					],
+					"blend_transition": 0.3
+				},
+                "anim_3": {
+					"animations" : [ "anim_3" ],
+                    "transitions": [
+                        { "default": "query.all_animations_finished" }
+					],
+					"blend_transition": 0.3
+				},
+                "anim_4": {
+					"animations" : [ "anim_4" ],
+                    "transitions": [
+                        { "default": "query.all_animations_finished" }
+					],
+					"blend_transition": 0.3
+				},
+                "anim_5": {
+					"animations" : [ "anim_5" ],
+                    "transitions": [
+                        { "default": "query.all_animations_finished" }
+					],
+					"blend_transition": 0.3
+				}
+			}
+        }
+    }
+}

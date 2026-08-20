@@ -1,0 +1,122 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:iron_ingot", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 7, "max": 10 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:coal", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 2 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 8 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_bike_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 8 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_bike_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_motorcycle_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_motorcycle_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_car_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_car_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_quad_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_quad_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_jetski_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_jetski_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_boat_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_boat_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 64 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_propeller_plane_0_spawn_egg", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 64 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_propeller_plane_1_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 48 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:vehicles_creeper_mobile_spawn_egg", "quantity": 1 } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

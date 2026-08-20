@@ -1,0 +1,660 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:paper", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 1, "max": 4 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:paper", "quantity": { "min": 32, "max": 64 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 3, "max": 5 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 2, "max": 4 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:lapis_lazuli", "quantity": { "min": 16, "max": 24 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 3, "max": 6 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:experience_bottle", "quantity": { "min": 8, "max": 16 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 18 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:exp_bag_small", "quantity": { "min": 3, "max": 6 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 24, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:exp_bag_large", "quantity": { "min": 2, "max": 3 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 28 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:levels_10", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 5,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 18, "max": 42 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "sharpness",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 28 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "protection",
+                                "level": 4
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 18 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "mending",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 27 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "unbreaking",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 23 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "fire_aspect",
+                                "level": 2
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 20 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "knockback",
+                                "level": 2
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 13, "max": 30 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "silk_touch",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 15, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "fortune",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 26 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "efficiency",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 17, "max": 30 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "looting",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 22, "max": 40 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "swift_sneak",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 29 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "thorns",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 30 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "feather_falling",
+                                "level": 4
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 15, "max": 27 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "depth_strider",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 22 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "frost_walker",
+                                "level": 2
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 26 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "soul_speed",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 20, "max": 40 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "wind_burst",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 20, "max": 40 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "density",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 20, "max": 38 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "breach",
+                                "level": 4
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 30 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "smite",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 29 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "bane_of_arthropods",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 13, "max": 25 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "power",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "infinity",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 22 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "flame",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 26 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "punch",
+                                "level": 2
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 15, "max": 27 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "riptide",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "quick_charge",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 9, "max": 18 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "multishot",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 15, "max": 30 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "piercing",
+                                "level": 4
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 25 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "loyalty",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 13, "max": 28 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "channeling",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 18, "max": 35 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "impaling",
+                                "level": 5
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "luck_of_the_sea",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 11, "max": 22 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "lure",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 20 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "aqua_affinity",
+                                "level": 1
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 15, "max": 40 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_book", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "specific_enchants",
+                            "enchants": [
+                              {
+                                "id": "respiration",
+                                "level": 3
+                              }
+                            ]
+                          }
+					    ]
+					 }]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 3,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanting_table", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:anvil", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 3, "max": 5 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:book", "quantity": { "min": 6, "max": 18 } } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

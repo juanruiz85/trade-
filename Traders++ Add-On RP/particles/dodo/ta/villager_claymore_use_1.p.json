@@ -1,0 +1,70 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "dodo_ta:villager_claymore_use_1",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/dodo/ta/weapons/glow_p"
+			}
+		},
+		"curves": {
+			"variable.size": {
+				"type": "catmull_rom",
+				"input": "v.particle_age*3",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0, 0.03, 0.03, 0.03, 0]
+			},
+			"variable.size2": {
+				"type": "linear",
+				"input": "v.particle_age*3",
+				"horizontal_range": "v.particle_lifetime",
+				"nodes": [0, 0.3, 0.05, 0.04, 0]
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 200,
+				"max_particles": 1000
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 0.2
+			},
+			"minecraft:emitter_shape_sphere": {
+				"offset": [0, 0.5, 0],
+				"radius": 2,
+				"surface_only": true,
+				"direction": "inwards"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "Math.random(2, 3)"
+			},
+			"minecraft:particle_initial_speed": 5,
+			"minecraft:particle_motion_dynamic": {
+				"linear_drag_coefficient": 1
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["v.size2", "v.size"],
+				"facing_camera_mode": "lookat_direction",
+				"uv": {
+					"texture_width": 64,
+					"texture_height": 64,
+					"uv": [0, 0],
+					"uv_size": [64, 64]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FFEAFF00",
+						"0.05": "#FF1CFF00",
+						"0.17": "#FF00590B",
+						"0.4": "#FF003519",
+						"0.8": "#0000240A"
+					}
+				}
+			}
+		}
+	}
+}

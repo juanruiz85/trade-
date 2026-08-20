@@ -1,0 +1,572 @@
+pack.name=Traders++ Add-On §6by Panda's
+pack.description=§5https://t.me/+mCz6wDOded40YzU1
+
+
+dodo.studios.traders_addon.welcome=§eHey §b%s§e. Thanks for using the §a§lTraders++§r §eAdd-On!§r	#
+dodo.studios.traders_addon.empty=§r	#
+
+
+item.dodo_ta:guide=Traders++ Guide	#
+dodo.studios.ta.use.guide=Flip Page	#
+
+item.dodo_ta:settings=Traders++ Settings	#
+dodo.studios.ta.use.settings=Open Settings	#
+dodo.studios.ta.settings.title=Traders++ Settings	#
+dodo.studios.ta.settings.spawn_intensity=§7Adjust the §fSpawn Intensity§7 to change how often traders spawn. You can also toggle traders on and off.§r%1%1Spawn Intensity	#
+dodo.studios.ta.settings.not_saved=§d§l»§r Your changes have not been saved! §7Press §aSubmit§7 to save changes.§r	#
+dodo.studios.ta.settings.updated=§a§l»§r §d%s §fhas changed the §aTraders++ Add-On §fsettings.	#
+dodo.studios.ta.settings.disabled.spawn_intensity=§c§l»§r §fThe §dSpawn Intensity§r has been set to §b0§r. §cNo traders will spawn!§r	#
+dodo.studios.ta.settings.disabled.all_traders=§c§l»§r §fAll traders have been disabled. §cNo traders will spawn!§r	#
+
+
+item.spawn_egg.entity.dodo_ta:enchanting_trader.name=Enchanting Trader Spawn Egg	#
+entity.dodo_ta:enchanting_trader.name=Enchanting Trader	#
+
+item.spawn_egg.entity.dodo_ta:end_trader.name=End Trader Spawn Egg	#
+entity.dodo_ta:end_trader.name=End Trader	#
+
+item.spawn_egg.entity.dodo_ta:farmer_trader.name=Farmer Trader Spawn Egg	#
+entity.dodo_ta:farmer_trader.name=Farmer Trader	#
+
+item.spawn_egg.entity.dodo_ta:fast_food_trader.name=Fast Food Trader Spawn Egg	#
+entity.dodo_ta:fast_food_trader.name=Fast Food Trader	#
+
+item.spawn_egg.entity.dodo_ta:furniture_trader.name=Furniture Trader Spawn Egg	#
+entity.dodo_ta:furniture_trader.name=Furniture Trader	#
+
+item.spawn_egg.entity.dodo_ta:mega_villager_trader.name=Mega Villager Trader Spawn Egg	#
+entity.dodo_ta:mega_villager_trader.name=Mega Villager Trader	#
+
+item.spawn_egg.entity.dodo_ta:mini_blocks_trader.name=Mini Blocks Trader Spawn Egg	#
+entity.dodo_ta:mini_blocks_trader.name=Mini Blocks Trader	#
+
+item.spawn_egg.entity.dodo_ta:mining_trader.name=Mining Trader Spawn Egg	#
+entity.dodo_ta:mining_trader.name=Mining Trader	#
+
+item.spawn_egg.entity.dodo_ta:nature_trader.name=Nature Trader Spawn Egg	#
+entity.dodo_ta:nature_trader.name=Nature Trader	#
+
+item.spawn_egg.entity.dodo_ta:nether_trader.name=Nether Trader Spawn Egg	#
+entity.dodo_ta:nether_trader.name=Nether Trader	#
+
+item.spawn_egg.entity.dodo_ta:ocean_trader.name=Ocean Trader Spawn Egg	#
+entity.dodo_ta:ocean_trader.name=Ocean Trader	#
+
+item.spawn_egg.entity.dodo_ta:op_trader.name=OP Trader Spawn Egg	#
+entity.dodo_ta:op_trader.name=OP Trader	#
+
+item.spawn_egg.entity.dodo_ta:plushies_trader.name=Plushies Trader Spawn Egg	#
+entity.dodo_ta:plushies_trader.name=Plushies Trader	#
+
+item.spawn_egg.entity.dodo_ta:rainbow_trader.name=Rainbow Trader Spawn Egg	#
+entity.dodo_ta:rainbow_trader.name=Rainbow Trader	#
+
+item.spawn_egg.entity.dodo_ta:rainbow_unicorn.name=Unicorn Spawn Egg	#
+entity.dodo_ta:rainbow_unicorn.name=Unicorn	#
+
+item.spawn_egg.entity.dodo_ta:redstone_trader.name=Redstone Trader Spawn Egg	#
+entity.dodo_ta:redstone_trader.name=Redstone Trader	#
+
+item.spawn_egg.entity.dodo_ta:secret_deals_trader.name=Secret Deals Trader Spawn Egg	#
+entity.dodo_ta:secret_deals_trader.name=Secret Deals Trader	#
+
+item.spawn_egg.entity.dodo_ta:traveler_trader.name=Traveler Trader Spawn Egg	#
+entity.dodo_ta:traveler_trader.name=Traveler Trader	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_trader.name=Vehicles Trader Spawn Egg	#
+entity.dodo_ta:vehicles_trader.name=Vehicles Trader	#
+
+item.spawn_egg.entity.dodo_ta:warden_trader.name=Warden Trader Spawn Egg	#
+entity.dodo_ta:warden_trader.name=Warden Trader	#
+
+item.spawn_egg.entity.dodo_ta:weapons_trader.name=Weapons Trader Spawn Egg	#
+entity.dodo_ta:weapons_trader.name=Weapons Trader	#
+
+
+item.spawn_egg.entity.dodo_ta:furniture_oak_stool.name=Oak Stool	#
+entity.dodo_ta:furniture_oak_stool.name=Oak Stool	#
+action.interact.ride.dodo_ta.oak_stool=Sit on Oak Stool	#
+action.hint.exit.dodo_ta:furniture_oak_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_oak_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_oak_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_spruce_stool.name=Spruce Stool	#
+entity.dodo_ta:furniture_spruce_stool.name=Spruce Stool	#
+action.interact.ride.dodo_ta.spruce_stool=Sit on Spruce Stool	#
+action.hint.exit.dodo_ta:furniture_spruce_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_spruce_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_spruce_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_birch_stool.name=Birch Stool	#
+entity.dodo_ta:furniture_birch_stool.name=Birch Stool	#
+action.interact.ride.dodo_ta.birch_stool=Sit on Birch Stool	#
+action.hint.exit.dodo_ta:furniture_birch_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_birch_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_birch_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_jungle_stool.name=Jungle Stool	#
+entity.dodo_ta:furniture_jungle_stool.name=Jungle Stool	#
+action.interact.ride.dodo_ta.jungle_stool=Sit on Jungle Stool	#
+action.hint.exit.dodo_ta:furniture_jungle_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_jungle_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_jungle_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_acacia_stool.name=Acacia Stool	#
+entity.dodo_ta:furniture_acacia_stool.name=Acacia Stool	#
+action.interact.ride.dodo_ta:acacia_stool=Sit on Acacia Stool	#
+action.hint.exit.dodo_ta:furniture_acacia_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_acacia_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_acacia_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_dark_oak_stool.name=Dark Oak Stool	#
+entity.dodo_ta:furniture_dark_oak_stool.name=Dark Oak Stool	#
+action.interact.ride.dodo_ta.dark_oak_stool=Sit on Dark Oak Stool	#
+action.hint.exit.dodo_ta:furniture_dark_oak_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_dark_oak_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_dark_oak_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_mangrove_stool.name=Mangrove Stool	#
+entity.dodo_ta:furniture_mangrove_stool.name=Mangrove Stool	#
+action.interact.ride.dodo_ta.mangrove_stool=Sit on Mangrove Stool	#
+action.hint.exit.dodo_ta:furniture_mangrove_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_mangrove_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_mangrove_stool=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_cherry_stool.name=Cherry Stool	#
+entity.dodo_ta:furniture_cherry_stool.name=Cherry Stool	#
+action.interact.ride.dodo_ta.cherry_stool=Sit on Cherry Stool	#
+action.hint.exit.dodo_ta:furniture_cherry_stool=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_cherry_stool=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_cherry_stool=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:furniture_oak_chair.name=Oak Chair	#
+entity.dodo_ta:furniture_oak_chair.name=Oak Chair	#
+action.interact.ride.dodo_ta.oak_chair=Sit on Oak Chair	#
+action.hint.exit.dodo_ta:furniture_oak_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_oak_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_oak_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_spruce_chair.name=Spruce Chair	#
+entity.dodo_ta:furniture_spruce_chair.name=Spruce Chair	#
+action.interact.ride.dodo_ta.spruce_chair=Sit on Spruce Chair	#
+action.hint.exit.dodo_ta:furniture_spruce_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_spruce_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_spruce_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_birch_chair.name=Birch Chair	#
+entity.dodo_ta:furniture_birch_chair.name=Birch Chair	#
+action.interact.ride.dodo_ta.birch_chair=Sit on Birch Chair	#
+action.hint.exit.dodo_ta:furniture_birch_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_birch_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_birch_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_jungle_chair.name=Jungle Chair	#
+entity.dodo_ta:furniture_jungle_chair.name=Jungle Chair	#
+action.interact.ride.dodo_ta.jungle_chair=Sit on Jungle Chair	#
+action.hint.exit.dodo_ta:furniture_jungle_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_jungle_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_jungle_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_acacia_chair.name=Acacia Chair	#
+entity.dodo_ta:furniture_acacia_chair.name=Acacia Chair	#
+action.interact.ride.dodo_ta.acacia_chair=Sit on Acacia Chair	#
+action.hint.exit.dodo_ta:furniture_acacia_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_acacia_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_acacia_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_dark_oak_chair.name=Dark Oak Chair	#
+entity.dodo_ta:furniture_dark_oak_chair.name=Dark Oak Chair	#
+action.interact.ride.dodo_ta.dark_oak_chair=Sit on Dark Oak Chair	#
+action.hint.exit.dodo_ta:furniture_dark_oak_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_dark_oak_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_dark_oak_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_mangrove_chair.name=Mangrove Chair	#
+entity.dodo_ta:furniture_mangrove_chair.name=Mangrove Chair	#
+action.interact.ride.dodo_ta:mangrove_chair=Sit on Mangrove Chair	#
+action.hint.exit.dodo_ta:furniture_mangrove_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_mangrove_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_mangrove_chair=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_cherry_chair.name=Cherry Chair	#
+entity.dodo_ta:furniture_cherry_chair.name=Cherry Chair	#
+action.interact.ride.dodo_ta.cherry_chair=Sit on Cherry Chair	#
+action.hint.exit.dodo_ta:furniture_cherry_chair=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_cherry_chair=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_cherry_chair=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:furniture_oak_bench.name=Oak Bench	#
+entity.dodo_ta:furniture_oak_bench.name=Oak Bench	#
+action.interact.ride.dodo_ta.oak_bench=Sit on Oak Bench	#
+action.hint.exit.dodo_ta:furniture_oak_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_oak_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_oak_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_spruce_bench.name=Spruce Bench	#
+entity.dodo_ta:furniture_spruce_bench.name=Spruce Bench	#
+action.interact.ride.dodo_ta.spruce_bench=Sit on Spruce Bench	#
+action.hint.exit.dodo_ta:furniture_spruce_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_spruce_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_spruce_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_birch_bench.name=Birch Bench	#
+entity.dodo_ta:furniture_birch_bench.name=Birch Bench	#
+action.interact.ride.dodo_ta.birch_bench=Sit on Birch Bench	#
+action.hint.exit.dodo_ta:furniture_birch_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_birch_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_birch_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_jungle_bench.name=Jungle Bench	#
+entity.dodo_ta:furniture_jungle_bench.name=Jungle Bench	#
+action.interact.ride.dodo_ta.jungle_bench=Sit on Jungle Bench	#
+action.hint.exit.dodo_ta:furniture_jungle_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_jungle_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_jungle_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_acacia_bench.name=Acacia Bench	#
+entity.dodo_ta:furniture_acacia_bench.name=Acacia Bench	#
+action.interact.ride.dodo_ta.acacia_bench=Sit on Acacia Bench	#
+action.hint.exit.dodo_ta:furniture_acacia_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_acacia_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_acacia_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_dark_oak_bench.name=Dark Oak Bench	#
+entity.dodo_ta:furniture_dark_oak_bench.name=Dark Oak Bench	#
+action.interact.ride.dodo_ta.dark_oak_bench=Sit on Dark Oak Bench	#
+action.hint.exit.dodo_ta:furniture_dark_oak_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_dark_oak_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_dark_oak_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_mangrove_bench.name=Mangrove Bench	#
+entity.dodo_ta:furniture_mangrove_bench.name=Mangrove Bench	#
+action.interact.ride.dodo_ta.mangrove_bench=Sit on Mangrove Bench	#
+action.hint.exit.dodo_ta:furniture_mangrove_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_mangrove_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_mangrove_bench=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:furniture_cherry_bench.name=Cherry Bench	#
+entity.dodo_ta:furniture_cherry_bench.name=Cherry Bench	#
+action.interact.ride.dodo_ta.cherry_bench=Sit on Cherry Bench	#
+action.hint.exit.dodo_ta:furniture_cherry_bench=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:furniture_cherry_bench=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:furniture_cherry_bench=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:furniture_oak_table.name=Oak Table	#
+entity.dodo_ta:furniture_oak_table.name=Oak Table	#
+item.spawn_egg.entity.dodo_ta:furniture_spruce_table.name=Spruce Table	#
+entity.dodo_ta:furniture_spruce_table.name=Spruce Table	#
+item.spawn_egg.entity.dodo_ta:furniture_birch_table.name=Birch Table	#
+entity.dodo_ta:furniture_birch_table.name=Birch Table	#
+item.spawn_egg.entity.dodo_ta:furniture_jungle_table.name=Jungle Table	#
+entity.dodo_ta:furniture_jungle_table.name=Jungle Table	#
+item.spawn_egg.entity.dodo_ta:furniture_acacia_table.name=Acacia Table	#
+entity.dodo_ta:furniture_acacia_table.name=Acacia Table	#
+item.spawn_egg.entity.dodo_ta:furniture_dark_oak_table.name=Dark Oak Table	#
+entity.dodo_ta:furniture_dark_oak_table.name=Dark Oak Table	#
+item.spawn_egg.entity.dodo_ta:furniture_mangrove_table.name=Mangrove Table	#
+entity.dodo_ta:furniture_mangrove_table.name=Mangrove Table	#
+item.spawn_egg.entity.dodo_ta:furniture_cherry_table.name=Cherry Table	#
+entity.dodo_ta:furniture_cherry_table.name=Cherry Table	#
+
+item.spawn_egg.entity.dodo_ta:furniture_oak_dresser.name=Oak Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_oak_dresser.name=Oak Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_spruce_dresser.name=Spruce Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_spruce_dresser.name=Spruce Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_birch_dresser.name=Birch Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_birch_dresser.name=Birch Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_jungle_dresser.name=Jungle Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_jungle_dresser.name=Jungle Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_acacia_dresser.name=Acacia Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_acacia_dresser.name=Acacia Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_dark_oak_dresser.name=Dark Oak Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_dark_oak_dresser.name=Dark Oak Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_mangrove_dresser.name=Mangrove Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_mangrove_dresser.name=Mangrove Dresser	#
+item.spawn_egg.entity.dodo_ta:furniture_cherry_dresser.name=Cherry Dresser §7(Storage)§f	#
+entity.dodo_ta:furniture_cherry_dresser.name=Cherry Dresser	#
+
+item.spawn_egg.entity.dodo_ta:furniture_plant_0.name=Tiny Plant	#
+entity.dodo_ta:furniture_plant_0.name=Tiny Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_1.name=Tiny Plant	#
+entity.dodo_ta:furniture_plant_1.name=Tiny Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_2.name=Tiny Plant	#
+entity.dodo_ta:furniture_plant_2.name=Tiny Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_3.name=Tiny Plant	#
+entity.dodo_ta:furniture_plant_3.name=Tiny Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_4.name=Tiny Plant	#
+entity.dodo_ta:furniture_plant_4.name=Tiny Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_5.name=Plant	#
+entity.dodo_ta:furniture_plant_5.name=Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_6.name=Plant	#
+entity.dodo_ta:furniture_plant_6.name=Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_7.name=Plant	#
+entity.dodo_ta:furniture_plant_7.name=Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_8.name=Plant	#
+entity.dodo_ta:furniture_plant_8.name=Plant	#
+item.spawn_egg.entity.dodo_ta:furniture_plant_9.name=Plant	#
+entity.dodo_ta:furniture_plant_9.name=Plant	#
+
+item.spawn_egg.entity.dodo_ta:furniture_laptop.name=Laptop	#
+entity.dodo_ta:furniture_laptop.name=Laptop	#
+
+item.spawn_egg.entity.dodo_ta:furniture_computer.name=Computer	#
+entity.dodo_ta:furniture_computer.name=Computer	#
+
+item.spawn_egg.entity.dodo_ta:furniture_camera.name=Security Camera	#
+entity.dodo_ta:furniture_camera.name=Security Camera	#
+
+
+item.dodo_ta:food_burrito.name=Burrito	#
+item.dodo_ta:food_chocolate.name=Chocolate Bar	#
+item.dodo_ta:food_fried_chicken.name=Fried Chicken	#
+item.dodo_ta:food_fries.name=French Fries	#
+item.dodo_ta:food_hamburger.name=Hamburger	#
+item.dodo_ta:food_hot_dog.name=Hot Dog	#
+item.dodo_ta:food_ice_cream.name=Ice Cream	#
+item.dodo_ta:food_iced_coffee.name=Iced Coffee	#
+item.dodo_ta:food_milkshake.name=Milkshake	#
+item.dodo_ta:food_muffin.name=Muffin	#
+item.dodo_ta:food_pizza.name=Pizza	#
+item.dodo_ta:food_taco.name=Taco	#
+item.dodo_ta:food_apple_juice.name=Apple Juice	#
+item.dodo_ta:food_potato_chips.name=Potato Chips	#
+
+
+action.interact.ride.dodo_ta.rainbow_unicorn=Mount	#
+action.hint.exit.dodo_ta:rainbow_unicorn=§a§lLOOK§r §fto fly up or down and tap §b§l:_input_key.sneak:§r §fto dismount§r	#
+action.hint.exit.scheme.dodo_ta:rainbow_unicorn=§a§lLOOK§r §fto fly up or down and tap §b§lDISMOUNT§r §fto dismount§r	#
+action.hint.exit.console.dodo_ta:rainbow_unicorn=§a§lLOOK§r §fto fly up or down and press §b§l:_input_key.sneak:§r §fto dismount§r	#
+
+
+item.dodo_ta:levels_10=§a+10 §fLevels§r	#
+dodo.studios.ta.use.levels_10=Gain +10 Levels	#
+item.dodo_ta:levels_100=§a+100 §fLevels§r	#
+dodo.studios.ta.use.levels_100=Gain +100 Levels	#
+item.dodo_ta:exp_bag_small=Small Experience Bag	#
+dodo.studios.ta.use.exp_bag_small=Open Small Experience Bag	#
+item.dodo_ta:exp_bag_large=Large Experience Bag	#
+dodo.studios.ta.use.exp_bag_large=Open Large Experience Bag	#
+
+
+item.dodo_ta:warden_apple.name=Warden Apple	#
+item.dodo_ta:warden_totem=Warden Totem	#
+dodo.studios.ta.use.warden_sword=Use Warden Sword	#
+item.dodo_ta:warden_sword=Warden Sword	#
+item.dodo_ta:warden_helmet=Warden Helmet	#
+item.dodo_ta:warden_chestplate=Warden Chestplate	#
+item.dodo_ta:warden_leggings=Warden Leggings	#
+item.dodo_ta:warden_boots=Warden Boots	#
+
+
+item.dodo_ta:golden_trident=Golden Trident	#
+item.dodo_ta:warhammer=Warhammer	#
+item.dodo_ta:sickle=Sickle	#
+item.dodo_ta:scythe=Scythe	#
+item.dodo_ta:spear=Spear	#
+item.dodo_ta:magic_wand=Magic Wand	#
+item.dodo_ta:club=Club	#
+item.dodo_ta:flamebrand_00=Flamebrand	#
+item.dodo_ta:flamebrand_01=Flamebrand	#
+item.dodo_ta:venomstrike=Venomstrike	#
+item.dodo_ta:fire_armblade=Fire Armblade	#
+item.dodo_ta:scimitar=Scimitar	#
+item.dodo_ta:dagger=Dagger	#
+item.dodo_ta:battle_axe=Battle Axe	#
+item.dodo_ta:dragonfang=Dragonfang	#
+item.dodo_ta:great_hammer=Great Hammer	#
+item.dodo_ta:katana=Katana	#
+item.dodo_ta:villager_claymore=Villager Claymore	#
+item.dodo_ta:copper_sword_00=Copper Sword	#
+item.dodo_ta:copper_sword_01=Exposed Copper Sword	#
+item.dodo_ta:copper_sword_02=Weathered Copper Sword	#
+item.dodo_ta:copper_sword_03=Oxidized Copper Sword	#
+item.dodo_ta:end_wand=End Wand	#
+item.dodo_ta:double_axe=Double Axe	#
+
+dodo.studios.ta.use.golden_trident=Use Golden Trident	#
+dodo.studios.ta.use.warhammer=Use Warhammer	#
+dodo.studios.ta.use.spear=Use Spear	#
+dodo.studios.ta.use.magic_wand=Use Magic Wand	#
+dodo.studios.ta.use.flamebrand=Use Flamebrand	#
+dodo.studios.ta.use.fire_armblade=Use Fire Armblade	#
+dodo.studios.ta.use.dragonfang=Use Dragonfang	#
+dodo.studios.ta.use.katana=Use Katana	#
+dodo.studios.ta.use.end_wand=Use End Wand	#
+dodo.studios.ta.use.double_axe=Use Double Axe	#
+
+dodo.studios.ta.end_wand.no_block=§dThat block is too far away!§r	#
+dodo.studios.ta.end_wand.cant_teleport=§d§lOops!§r §fUnable to find a safe place to teleport.§r	#
+
+
+tile.dodo_ta:mini_crafting_table.name=Mini Crafting Table	#
+tile.dodo_ta:mini_diamond_block.name=Mini Block of Diamond	#
+tile.dodo_ta:mini_emerald_block.name=Mini Block of Emerald	#
+tile.dodo_ta:mini_gold_block.name=Mini Block of Gold	#
+tile.dodo_ta:mini_hay_bale.name=Mini Hay Bale	#
+tile.dodo_ta:mini_iron_block.name=Mini Block of Iron	#
+tile.dodo_ta:mini_acacia_log.name=Mini Acacia Log	#
+tile.dodo_ta:mini_birch_log.name=Mini Birch Log	#
+tile.dodo_ta:mini_cherry_log.name=Mini Cherry Log	#
+tile.dodo_ta:mini_dark_oak_log.name=Mini Dark Oak Log	#
+tile.dodo_ta:mini_jungle_log.name=Mini Jungle Log	#
+tile.dodo_ta:mini_mangrove_log.name=Mini Mangrove Log	#
+tile.dodo_ta:mini_oak_log.name=Mini Oak Log	#
+tile.dodo_ta:mini_spruce_log.name=Mini Spruce Log	#
+tile.dodo_ta:mini_polished_andesite.name=Mini Polished Andesite	#
+tile.dodo_ta:mini_shroomlight.name=Mini Shroomlight	#
+
+
+item.dodo_ta:rainbow_sword=Rainbow Sword	#
+item.dodo_ta:rainbow_pickaxe=Rainbow Pickaxe	#
+item.dodo_ta:rainbow_axe=Rainbow Axe	#
+item.dodo_ta:rainbow_shovel=Rainbow Shovel	#
+item.dodo_ta:rainbow_hoe=Rainbow Hoe	#
+item.dodo_ta:rainbow_helmet=Rainbow Helmet	#
+item.dodo_ta:rainbow_chestplate=Rainbow Chestplate	#
+item.dodo_ta:rainbow_leggings=Rainbow Leggings	#
+item.dodo_ta:rainbow_boots=Rainbow Boots	#
+
+
+item.dodo_ta:diamond_clock=Diamond Clock	#
+item.dodo_ta:torch_helmet=Torch Helmet	#
+item.dodo_ta:pickaxe_sword=Pickaxe Sword	#
+item.dodo_ta:dual_pickaxe=Dual Pickaxe	#
+item.dodo_ta:pick_axe=Pick Axe	#
+
+
+item.spawn_egg.entity.dodo_ta:treasure_chest.name=Treasure Chest	#
+entity.dodo_ta:treasure_chest.name=Treasure Chest	#
+action.interact.use.dodo_ta.treasure_chest=Open Treasure Chest	#
+
+
+item.spawn_egg.entity.dodo_ta:pig_plushie.name=Pig Plushie	#
+entity.dodo_ta:pig_plushie.name=Pig Plushie	#
+action.interact.use.dodo_ta.pig_plushie=Squeeze Pig Plushie	#
+
+item.spawn_egg.entity.dodo_ta:chicken_plushie.name=Chicken Plushie	#
+entity.dodo_ta:chicken_plushie.name=Chicken Plushie	#
+action.interact.use.dodo_ta.chicken_plushie=Squeeze Chicken Plushie	#
+
+item.spawn_egg.entity.dodo_ta:cow_plushie.name=Cow Plushie	#
+entity.dodo_ta:cow_plushie.name=Cow Plushie	#
+action.interact.use.dodo_ta.cow_plushie=Squeeze Cow Plushie	#
+
+item.spawn_egg.entity.dodo_ta:bee_plushie.name=Bee Plushie	#
+entity.dodo_ta:bee_plushie.name=Bee Plushie	#
+action.interact.use.dodo_ta.bee_plushie=Squeeze Bee Plushie	#
+
+item.spawn_egg.entity.dodo_ta:rabbit_plushie.name=Rabbit Plushie	#
+entity.dodo_ta:rabbit_plushie.name=Rabbit Plushie	#
+action.interact.use.dodo_ta.rabbit_plushie=Squeeze Rabbit Plushie	#
+
+item.spawn_egg.entity.dodo_ta:fox_plushie.name=Fox Plushie	#
+entity.dodo_ta:fox_plushie.name=Fox Plushie	#
+action.interact.use.dodo_ta.fox_plushie=Squeeze Fox Plushie	#
+
+item.spawn_egg.entity.dodo_ta:turtle_plushie.name=Turtle Plushie	#
+entity.dodo_ta:turtle_plushie.name=Turtle Plushie	#
+action.interact.use.dodo_ta.turtle_plushie=Squeeze Turtle Plushie	#
+
+item.spawn_egg.entity.dodo_ta:axolotl_plushie.name=Axolotl Plushie	#
+entity.dodo_ta:axolotl_plushie.name=Axolotl Plushie	#
+action.interact.use.dodo_ta.axolotl_plushie=Squeeze Axolotl Plushie	#
+
+item.spawn_egg.entity.dodo_ta:zombie_plushie.name=Zombie Plushie	#
+entity.dodo_ta:zombie_plushie.name=Zombie Plushie	#
+action.interact.use.dodo_ta.zombie_plushie=Squeeze Zombie Plushie	#
+
+item.spawn_egg.entity.dodo_ta:creeper_plushie.name=Creeper Plushie	#
+entity.dodo_ta:creeper_plushie.name=Creeper Plushie	#
+action.interact.use.dodo_ta.creeper_plushie=Squeeze Creeper Plushie	#
+
+item.spawn_egg.entity.dodo_ta:blaze_plushie.name=Blaze Plushie	#
+entity.dodo_ta:blaze_plushie.name=Blaze Plushie	#
+action.interact.use.dodo_ta.blaze_plushie=Squeeze Blaze Plushie	#
+
+item.spawn_egg.entity.dodo_ta:enderman_plushie.name=Enderman Plushie	#
+entity.dodo_ta:enderman_plushie.name=Enderman Plushie	#
+action.interact.use.dodo_ta.enderman_plushie=Squeeze Enderman Plushie	#
+
+
+item.dodo_ta:mega_pickaxe=Mega Pickaxe	#
+item.dodo_ta:mega_axe=Mega Axe	#
+item.dodo_ta:mega_shovel=Mega Shovel	#
+item.dodo_ta:mega_hoe=Mega Hoe	#
+
+
+item.spawn_egg.entity.dodo_ta:vehicles_bike_0.name=Red Bike	#
+entity.dodo_ta:vehicles_bike_0.name=Red Bike	#
+action.interact.ride.dodo_ta.vehicles_bike_0=Ride Red Bike	#
+action.hint.exit.dodo_ta:vehicles_bike_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_bike_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_bike_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_bike_1.name=Blue Bike	#
+entity.dodo_ta:vehicles_bike_1.name=Blue Bike	#
+action.interact.ride.dodo_ta.vehicles_bike_1=Ride Blue Bike	#
+action.hint.exit.dodo_ta:vehicles_bike_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_bike_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_bike_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_boat_0.name=Green Boat	#
+entity.dodo_ta:vehicles_boat_0.name=Green Boat	#
+action.interact.ride.dodo_ta.vehicles_boat_0=Drive Green Boat	#
+action.hint.exit.dodo_ta:vehicles_boat_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_boat_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_boat_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_boat_1.name=White Boat	#
+entity.dodo_ta:vehicles_boat_1.name=White Boat	#
+action.interact.ride.dodo_ta.vehicles_boat_1=Drive White Boat	#
+action.hint.exit.dodo_ta:vehicles_boat_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_boat_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_boat_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_car_0.name=Red Car	#
+entity.dodo_ta:vehicles_car_0.name=Red Car	#
+action.interact.ride.dodo_ta.vehicles_car_0=Drive Red Car	#
+action.hint.exit.dodo_ta:vehicles_car_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_car_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_car_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_car_1.name=Blue Car	#
+entity.dodo_ta:vehicles_car_1.name=Blue Car	#
+action.interact.ride.dodo_ta.vehicles_car_1=Drive Blue Car	#
+action.hint.exit.dodo_ta:vehicles_car_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_car_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_car_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_jetski_0.name=Purple Jetski	#
+entity.dodo_ta:vehicles_jetski_0.name=Purple Jetski	#
+action.interact.ride.dodo_ta.vehicles_jetski_0=Ride Purple Jetski	#
+action.hint.exit.dodo_ta:vehicles_jetski_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_jetski_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_jetski_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_jetski_1.name=Black Jetski	#
+entity.dodo_ta:vehicles_jetski_1.name=Black Jetski	#
+action.interact.ride.dodo_ta.vehicles_jetski_1=Ride Black Jetski	#
+action.hint.exit.dodo_ta:vehicles_jetski_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_jetski_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_jetski_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_motorcycle_0.name=White Motorcycle	#
+entity.dodo_ta:vehicles_motorcycle_0.name=White Motorcycle	#
+action.interact.ride.dodo_ta.vehicles_motorcycle_0=Ride White Motorcycle	#
+action.hint.exit.dodo_ta:vehicles_motorcycle_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_motorcycle_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_motorcycle_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_motorcycle_1.name=Orange Motorcycle	#
+entity.dodo_ta:vehicles_motorcycle_1.name=Orange Motorcycle	#
+action.interact.ride.dodo_ta.vehicles_motorcycle_1=Ride Orange Motorcycle	#
+action.hint.exit.dodo_ta:vehicles_motorcycle_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_motorcycle_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_motorcycle_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_propeller_plane_0.name=Red Propeller Plane	#
+entity.dodo_ta:vehicles_propeller_plane_0.name=Red Propeller Plane	#
+action.interact.ride.dodo_ta.vehicles_propeller_plane_0=Fly Red Propeller Plane	#
+action.hint.exit.dodo_ta:vehicles_propeller_plane_0=§a§lLOOK§r §fto fly up or down and tap §b§l:_input_key.sneak:§r §fto dismount§r	#
+action.hint.exit.scheme.dodo_ta:vehicles_propeller_plane_0=§a§lLOOK§r §fto fly up or down and tap §b§lDISMOUNT§r §fto dismount§r	#
+action.hint.exit.console.dodo_ta:vehicles_propeller_plane_0=§a§lLOOK§r §fto fly up or down and press §b§l:_input_key.sneak:§r §fto dismount§r	#
+item.spawn_egg.entity.dodo_ta:vehicles_propeller_plane_1.name=Gray Propeller Plane	#
+entity.dodo_ta:vehicles_propeller_plane_1.name=Gray Propeller Plane	#
+action.interact.ride.dodo_ta.vehicles_propeller_plane_1=Fly Gray Propeller Plane	#
+action.hint.exit.dodo_ta:vehicles_propeller_plane_1=§a§lLOOK§r §fto fly up or down and tap §b§l:_input_key.sneak:§r §fto dismount§r	#
+action.hint.exit.scheme.dodo_ta:vehicles_propeller_plane_1=§a§lLOOK§r §fto fly up or down and tap §b§lDISMOUNT§r §fto dismount§r	#
+action.hint.exit.console.dodo_ta:vehicles_propeller_plane_1=§a§lLOOK§r §fto fly up or down and press §b§l:_input_key.sneak:§r §fto dismount§r	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_quad_0.name=Red Quad	#
+entity.dodo_ta:vehicles_quad_0.name=Red Quad	#
+action.interact.ride.dodo_ta.vehicles_quad_0=Drive Red Quad	#
+action.hint.exit.dodo_ta:vehicles_quad_0=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_quad_0=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_quad_0=Press :_input_key.sneak: to dismount	#
+item.spawn_egg.entity.dodo_ta:vehicles_quad_1.name=Yellow Quad	#
+entity.dodo_ta:vehicles_quad_1.name=Yellow Quad	#
+action.interact.ride.dodo_ta.vehicles_quad_1=Drive Yellow Quad	#
+action.hint.exit.dodo_ta:vehicles_quad_1=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_quad_1=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_quad_1=Press :_input_key.sneak: to dismount	#
+
+item.spawn_egg.entity.dodo_ta:vehicles_creeper_mobile.name=The Creeper Mobile	#
+entity.dodo_ta:vehicles_creeper_mobile.name=The Creeper Mobile	#
+action.interact.ride.dodo_ta.vehicles_creeper_mobile=Drive The Creeper Mobile	#
+action.hint.exit.dodo_ta:vehicles_creeper_mobile=Press :_input_key.sneak: to dismount	#
+action.hint.exit.scheme.dodo_ta:vehicles_creeper_mobile=Press JUMP to dismount	#
+action.hint.exit.console.dodo_ta:vehicles_creeper_mobile=Press :_input_key.sneak: to dismount	#

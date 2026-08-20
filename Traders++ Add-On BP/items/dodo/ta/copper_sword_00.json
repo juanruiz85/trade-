@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:copper_sword_00",
+	  "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+	  }
+    },
+
+    "components": {
+	  "tag:minecraft:is_sword": {},
+	  "minecraft:damage": { "value": 6 },
+	  "minecraft:icon": { "texture": "dodo_ta_copper_sword_00" },
+	  "minecraft:can_destroy_in_creative": false,
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:digger": {
+        "destroy_speeds": [
+		  { "speed": 15, "block": "minecraft:web" }
+        ]
+	  }
+	}
+  }
+}

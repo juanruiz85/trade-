@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:mega_shovel",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/dodo/ta/mega/mega_shovel",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.mega_shovel"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.wield_mega.fp",
+        "wield_third_person": "animation.dodo_ta.wield_mega.tp"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

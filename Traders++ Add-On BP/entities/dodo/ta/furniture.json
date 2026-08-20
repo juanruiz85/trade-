@@ -1,0 +1,166 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dodo_ta:furniture_trader",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+        },
+        "components": {
+			"minecraft:scale": { "value": 0 },
+			"minecraft:collision_box": { "width": 0.6, "height": 1.9 },
+			"minecraft:physics": { "has_collision": true, "has_gravity": true },
+			"minecraft:type_family": { "family": [ "villager", "mob", "trader", "traders_addon" ] },
+            "minecraft:push_through": { "value": 1 },
+			"minecraft:pushable": { "is_pushable": true, "is_pushable_by_piston": true },
+            "minecraft:health": { "value": 20, "max": 20 },
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:breathable": { "total_supply": 15, "suffocate_time": 0 },
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": { "value": 0.5 },
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:persistent": {},
+			"minecraft:behavior.float": { "priority": 0 },
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.trade_with_player": { "priority": 2 },
+			"minecraft:behavior.look_at_trading_player": { "priority": 3 },
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{ "test" : "is_family", "subject" : "other", "value" : "zombie"},
+								{ "test" : "is_family", "subject" : "other", "value" : "zombie_villager"},
+								{ "test" : "is_family", "subject" : "other", "value" : "illager"},
+								{ "test" : "is_family", "subject" : "other", "value" : "vex"},
+								{ "test" : "is_family", "subject" : "other", "value" : "zoglin" }
+							]
+						},
+						"max_dist": 8,
+						"walk_speed_multiplier": 0.6,
+						"sprint_speed_multiplier": 0.6
+					}
+				]
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 5,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:preferred_path" : {
+				"max_fall_blocks" : 1,
+				"jump_cost" : 1,
+				"default_block_cost" : 2,
+				"preferred_path_blocks" : [
+					{
+						"cost" : 0,
+						"blocks" : [
+							"grass_path"
+						]
+					},
+					{
+						"cost" : 1,
+						"blocks" : [
+							"grass_block"
+						]
+					}
+				]
+			}
+        },
+		"component_groups": {
+			"standby": {
+				"minecraft:scale": { "value": 1.0 },
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 0 }
+			},
+			"biome_birch": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_birch.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 1 }
+			},
+			"biome_spruce": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_spruce.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 2 }
+			},
+			"biome_jungle": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_jungle.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 3 }
+			},
+			"biome_acacia": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_acacia.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 4 }
+			},
+			"biome_dark_oak": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_dark_oak.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 5 }
+			},
+			"biome_mangrove": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_mangrove.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 6 }
+			},
+			"biome_cherry": {
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:furniture_trader.name", "table": "trading/dodo/ta/furniture_cherry.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false },
+				"minecraft:variant": { "value": 7 }
+			},
+			"minecraft:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"dodo_ta:standby": {
+				"sequence": [
+					{ "add": { "component_groups": [ "standby" ] } },
+					
+					{ "filters": { "test": "has_biome_tag", "value": "extreme_hills" }, "add": { "component_groups": [ "biome_spruce" ] } },
+					{ "filters": { "test": "has_biome_tag", "value": "taiga" }, "add": { "component_groups": [ "biome_spruce" ] } },
+					{ "filters": { "test": "has_biome_tag", "value": "frozen" }, "add": { "component_groups": [ "biome_spruce" ] } },
+					{ "filters": { "test": "has_biome_tag", "value": "snowy_slopes" }, "add": { "component_groups": [ "biome_spruce" ] } },
+					{ "filters": { "test": "has_biome_tag", "value": "cold" }, "add": { "component_groups": [ "biome_spruce" ] } },
+					
+					{ "filters": { "test": "has_biome_tag", "value": "birch" }, "add": { "component_groups": [ "biome_birch" ] } },
+					
+					{ "filters": { "test": "is_biome", "value": "jungle" }, "add": { "component_groups": [ "biome_jungle" ] } },
+					
+					{ "filters": { "test": "is_biome", "value": "savanna" }, "add": { "component_groups": [ "biome_acacia" ] } },
+					
+					{ "filters": { "test": "has_biome_tag", "value": "roofed" }, "add": { "component_groups": [ "biome_dark_oak" ] } },
+					
+					{ "filters": { "test": "has_biome_tag", "value": "swamp" }, "add": { "component_groups": [ "biome_mangrove" ] } },
+					{ "filters": { "test": "has_biome_tag", "value": "mangrove_swamp" }, "add": { "component_groups": [ "biome_mangrove" ] } },
+					
+					{ "filters": { "test": "has_biome_tag", "value": "cherry_grove" }, "add": { "component_groups": [ "biome_cherry" ] } }
+				]
+			},
+			"minecraft:instant_despawn": {
+				"add": {
+					"component_groups": [ "minecraft:instant_despawn" ]
+				}
+			}
+		}
+	}
+}

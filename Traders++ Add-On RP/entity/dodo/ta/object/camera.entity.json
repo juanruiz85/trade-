@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_camera",
+			"spawn_egg": {
+				"texture": "dodo_ta_tech",
+				"texture_index": 2
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture_camera"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.furniture_camera"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/camera/camera"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			},
+			"animations": {
+				"controller": "controller.animation.dodo_ta.camera",
+				"anim_1": "animation.dodo_ta.camera.anim_1",
+				"anim_2": "animation.dodo_ta.camera.anim_2",
+				"anim_3": "animation.dodo_ta.camera.anim_3",
+				"anim_4": "animation.dodo_ta.camera.anim_4",
+				"anim_5": "animation.dodo_ta.camera.anim_5"
+			},
+			"materials": {
+				"default": "experience_orb"
+			}
+		}
+	}
+}

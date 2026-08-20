@@ -1,0 +1,266 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"dodo_ta:enchanting_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 0.90 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:end_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 1.0, 1.40 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:farmer_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.90, 1.40 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:fast_food_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.90, 1.30 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:furniture_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:hacker_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 1.10, 1.20 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:mega_villager_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.40, 0.60 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:mini_blocks_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:mining_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 0.80 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:nature_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.95, 1.35 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:nether_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 1.0 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:ocean_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 1.20 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:op_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 1.00 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:plushies_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 1.0, 1.40 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:rainbow_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.90, 1.30 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:redstone_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.70, 1.30 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:traveler_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.65, 1.05 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:vehicles_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:warden_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.60, 1.0 ],
+				"volume" : 1.0
+			},
+			"dodo_ta:weapons_trader" : {
+				"events" : {
+					"ambient" : "mob.villager.idle",
+					"death" : "mob.villager.death",
+					"death.to.zombie" : "mob.villager.death",
+					"haggle" : "mob.villager.haggle",
+					"haggle.no" : "mob.villager.no",
+					"haggle.yes" : "mob.villager.yes",
+					"hurt" : "mob.villager.hit"
+				},
+				"pitch" : [ 0.70, 1.10 ],
+				"volume" : 1.0
+			}
+		}
+	}
+}

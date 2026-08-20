@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:skull:2",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

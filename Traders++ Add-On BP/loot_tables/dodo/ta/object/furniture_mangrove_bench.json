@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "dodo_ta:furniture_mangrove_bench_spawn_egg",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

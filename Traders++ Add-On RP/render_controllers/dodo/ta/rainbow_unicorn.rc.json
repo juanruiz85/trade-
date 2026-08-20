@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.rainbow_unicorn": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ "Texture.default" ]
+        },
+		"geometries":  {
+		  "Array.geos": [ "Geometry.adult", "Geometry.baby" ]
+		}
+      },
+	  "geometry": "Array.geos[query.is_baby]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ],
+	  "uv_anim": {
+		"offset": [ 0.0, "math.mod(math.floor(query.life_time * 2.5), 8) / 8" ],
+		"scale": [ 1.0, "1 / 8" ]
+	  }
+    }
+  }
+}

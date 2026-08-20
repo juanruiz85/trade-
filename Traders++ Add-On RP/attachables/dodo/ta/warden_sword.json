@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:warden_sword",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/dodo/ta/warden/warden_sword",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.warden_sword"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.wield.fp",
+        "wield_third_person": "animation.dodo_ta.wield.tp",
+        "use_controller": "controller.animation.dodo_ta.use_c",
+        "use": "animation.dodo_ta.warden_sword.use"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" },
+          { "use_controller": "c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

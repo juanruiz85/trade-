@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:warden_chestplate",  
+      "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+      }
+    },
+
+    "components": {
+	  "minecraft:wearable": {
+		"dispensable" : true,
+		"protection" : 8,
+		"slot": "slot.armor.chest"
+	  },
+      "minecraft:max_stack_size": 1,
+	  "minecraft:icon": { "texture": "dodo_ta_warden_chestplate" },
+	  "minecraft:enchantable": {
+		"value": 15,
+		"slot": "armor_torso"
+	  }
+	}
+  }
+}

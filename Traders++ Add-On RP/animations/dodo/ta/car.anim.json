@@ -1,0 +1,70 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.car.move": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"bone6": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"engine": {
+					"rotation": {
+						"0.0": [0, 0, 1],
+						"0.1": [0, 0, -1],
+						"0.3": [0, 0, 1],
+						"0.4": [0, 0, -1],
+						"0.5": [0, 0, 1]
+					}
+				},
+				"roller2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -360]
+					}
+				},
+				"roller1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 360]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.car.steer": {
+			"loop": true,
+			"bones": {
+				"bone6": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				},
+				"bone7": {
+					"rotation": [0, 0, "Math.clamp(query.yaw_speed * -0.3, -60, 60)"]
+				},
+				"bone3": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.furniture_laptop",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bb_main",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -5], "size": [12, 1, 10], "uv": [0, 0]},
+						{"origin": [-6, 5.8, 0.9], "size": [12, 1, 9], "pivot": [0, 5.8, 4.9], "rotation": [-100, 0, 0], "uv": [0, 11]}
+					]
+				}
+			]
+		}
+	]
+}

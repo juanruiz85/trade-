@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.guide": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+			"Texture.page_0",
+			"Texture.page_1",
+			"Texture.page_2",
+			"Texture.page_3",
+			"Texture.page_4",
+			"Texture.page_5",
+			"Texture.page_6",
+			"Texture.page_7",
+			"Texture.page_8",
+			"Texture.page_9",
+			"Texture.page_10"
+		  ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[variable.dodo_ta_page]" ],
+      "is_hurt_color": {},
+      "on_fire_color": {}
+    }
+  }
+}

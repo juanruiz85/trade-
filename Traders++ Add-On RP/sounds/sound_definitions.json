@@ -1,0 +1,27 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "dodo_ta:treasure_chest" : {
+         "category" : "neutral",
+		 "max_distance": 8.0,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/dodo/ta/treasure_chest",
+               "volume" : 1.0
+            }
+         ]
+      },
+      "dodo_ta:plushie" : {
+         "category" : "neutral",
+		 "max_distance": 8.0,
+         "sounds" : [
+            {
+               "load_on_low_memory" : true,
+               "name" : "sounds/dodo/ta/plushie",
+               "volume" : 1.0
+            }
+         ]
+      }
+   }
+}

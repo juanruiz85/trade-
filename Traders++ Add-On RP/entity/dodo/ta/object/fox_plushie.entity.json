@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:fox_plushie",
+			"spawn_egg": {
+				"texture": "dodo_ta_plushie",
+				"texture_index": 5
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.fox_plushie"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/plushies/fox_plushie"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

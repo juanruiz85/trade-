@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:vehicles_creeper_mobile",
+			"spawn_egg": {
+				"texture": "dodo_ta_vehicles",
+				"texture_index": 14
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.creeper_mobile"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/creeper_mobile"
+			},
+			"scripts": {
+				"animate": [
+					{ "move": "query.is_moving" },
+					{ "boost": "query.is_moving" },
+					"steer"
+				]
+			},
+			"animations": {
+				"move": "animation.dodo_ta.creeper_mobile.move",
+				"steer": "animation.dodo_ta.creeper_mobile.steer",
+				"boost": "animation.dodo_ta.creeper_mobile.boost"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "dodo_ta:venomstrike_target",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/dodo/ta/weapons/poison_p"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": "math.random(1,2)"
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.6,0.8)"
+			},
+			"minecraft:particle_initial_speed": 0.9,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [0, 5, 0]
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.8, 0.8],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [0, 0],
+					"uv_size": [16, 16]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FFFFFFFF",
+						"0.29": "#FF1FE40D",
+						"0.85": "#E00C3F25"
+					}
+				}
+			}
+		}
+	}
+}

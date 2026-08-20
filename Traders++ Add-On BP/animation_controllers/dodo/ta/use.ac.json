@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.dodo_ta.use": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "use": "query.property('dodo_ta:use') == true" }
+                    ]
+                },
+                "use": {
+                    "transitions": [
+						{ "default": "query.property('dodo_ta:use') == false" }
+					],
+                    "on_entry": [
+						"/execute as @s[type=dodo_ta:treasure_chest] at @s run loot spawn ~ ~0.1 ~ loot \"dodo/ta/treasure_chest_loot\"",
+						"/execute as @s[type=dodo_ta:treasure_chest] at @s run particle dodo_ta:treasure_chest ~ ~ ~",
+						"/execute as @s[type=dodo_ta:treasure_chest] at @s run playsound dodo_ta:treasure_chest @a[r=8] ~ ~ ~ 1 1 1",
+						"/event entity @s[type=dodo_ta:treasure_chest] minecraft:instant_despawn",
+						"/execute as @s[family=plushie] at @s run playanimation @s animation.dodo_ta.plushie.use",
+						"/execute as @s[family=plushie] at @s run playsound dodo_ta:plushie @a[r=8] ~ ~ ~ 1 1 1"
+					]
+				}
+			}
+        }
+    }
+}

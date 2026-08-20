@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.fire_armblade.wield.tp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [176.26297, -15.9257, 97.75776],
+					"position": [-14.5, -1.10124, -2.89451],
+					"scale": 0.7
+				},
+				"bone3": {
+					"rotation": [-182.5434, 16.79152, -171.54689],
+					"position": [0, 0, -1.25]
+				}
+			}
+		},
+		"animation.dodo_ta.fire_armblade.wield.fp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [21.82954, 2.80265, -161.95944],
+					"position": [19.80041, -65.21627, 14.86721],
+					"scale": 2.7
+				}
+			}
+		}
+	}
+}

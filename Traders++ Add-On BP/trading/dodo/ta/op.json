@@ -1,0 +1,114 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:glowstone_dust", "quantity": { "min": 32, "max": 48 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 3, "max": 4 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:blaze_powder", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 2, "max": 3 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 12 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:diamond_clock", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 20, "max": 26 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mega_pickaxe", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 28, "max": 36 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mega_axe", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 22, "max": 28 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mega_shovel", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 18, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mega_hoe", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 48, "max": 64 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:levels_100", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:netherite_ingot", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond", "quantity": { "min": 2, "max": 3 } } ]
+                  }
+				]
+            },
+            {
+               "num_to_select": 3,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 48, "max": 64 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:elytra", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 48 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:mace", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:totem_of_undying", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 48 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:beacon", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:enchanted_golden_apple", "quantity": { "min": 2, "max": 3 } } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

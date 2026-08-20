@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:op_trader",
+			"spawn_egg": {
+				"base_color": "#30D0BE",
+				"overlay_color": "#B4FDEE"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.op"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/op"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"attack_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"attack_controller": "controller.animation.dodo_ta.attack",
+				"move": "animation.dodo_ta.op.move",
+				"idle": "animation.dodo_ta.op.idle",
+				"attack": "animation.dodo_ta.op.attack"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

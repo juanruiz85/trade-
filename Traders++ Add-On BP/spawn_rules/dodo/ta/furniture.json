@@ -1,0 +1,40 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "dodo_ta:furniture_trader",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 7,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 4
+        },
+        "minecraft:density_limit": {
+          "surface": 1
+        },
+        "minecraft:biome_filter": {
+          "any_of": [
+            {"test": "has_biome_tag", "operator": "==", "value": "plains"},
+            {"test": "has_biome_tag", "operator": "==", "value": "meadow"},
+            {"test": "has_biome_tag", "operator": "==", "value": "forest"},
+            {"test": "has_biome_tag", "operator": "==", "value": "birch"},
+            {"test": "has_biome_tag", "operator": "==", "value": "taiga"},
+            {"test": "has_biome_tag", "operator": "==", "value": "jungle"},
+            {"test": "has_biome_tag", "operator": "==", "value": "swamp"},
+            {"test": "has_biome_tag", "operator": "==", "value": "mangrove_swamp"},
+            {"test": "has_biome_tag", "operator": "==", "value": "roofed"},
+            {"test": "has_biome_tag", "operator": "==", "value": "cherry_grove"},
+            {"test": "has_biome_tag", "operator": "==", "value": "savanna"}
+          ]
+        }
+      }
+    ]
+  }
+}

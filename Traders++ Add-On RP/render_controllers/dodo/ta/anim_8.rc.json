@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.anim_8": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+			"Texture.anim_00",
+			"Texture.anim_01",
+			"Texture.anim_02",
+			"Texture.anim_03",
+			"Texture.anim_04",
+			"Texture.anim_05",
+			"Texture.anim_06",
+			"Texture.anim_07"
+			]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "Array.skins[query.life_time * 8]", "texture.enchanted" ]
+    }
+  }
+}

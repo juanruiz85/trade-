@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.end_wand.on": {
+			"loop": true,
+			"bones": {
+				"eye": {
+					"rotation": ["Math.cos(query.anim_time*100)*90", "Math.cos(query.anim_time*120)*90", "Math.cos(query.anim_time*150)*90"],
+					"position": [0, "Math.cos(query.anim_time*150)*0.7", 0]
+				}
+			}
+		},
+		"animation.dodo_ta.end_wand.use": {
+			"animation_length": 0.5,
+			"bones": {
+				"bb_main": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-5.78, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3333": {
+							"post": [7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [1.88, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3333": {
+							"post": [-2, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.furniture_dresser",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 9, 0]
+				},
+				{
+					"name": "bb_main",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-10, 0, -5.5], "size": [3, 2, 3], "uv": [0, 5]},
+						{"origin": [-11, 2, -6.5], "size": [22, 13, 13], "uv": [0, 0]},
+						{"origin": [-10, 11, -7.5], "size": [20, 3, 1], "uv": [0, 30]},
+						{"origin": [-10, 3, -7.5], "size": [20, 3, 1], "uv": [0, 30]},
+						{"origin": [-10, 7, -7.5], "size": [20, 3, 1], "uv": [0, 26]},
+						{"origin": [-10, 0, 2.5], "size": [3, 2, 3], "uv": [0, 0]},
+						{"origin": [7, 0, -5.5], "size": [3, 2, 3], "uv": [0, 5], "mirror": true},
+						{"origin": [7, 0, 2.5], "size": [3, 2, 3], "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.warden_helmet",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "body",
+					"parent": "Waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4.5, 24, -4.5], "size": [9, 9, 9], "inflate": 0.2, "uv": [0, 18]},
+						{"origin": [-4.5, 24, -4.5], "size": [9, 9, 9], "inflate": 0.5, "uv": [0, 42]},
+						{"origin": [-11.5, 24, 0], "size": [23, 18, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

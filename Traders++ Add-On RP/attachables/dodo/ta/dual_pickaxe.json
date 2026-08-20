@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:dual_pickaxe",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/dodo/ta/dual_pickaxe",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.dual_pickaxe"
+      },
+      "animations": {
+        "wield.fp": "animation.dodo_ta.dual_pickaxe.fp",
+        "wield.tp": "animation.dodo_ta.dual_pickaxe.tp"
+      },
+      "scripts": {
+        "animate": [
+          { "wield.fp": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield.tp": "!c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

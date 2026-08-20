@@ -1,0 +1,316 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:chorus_fruit", "quantity": { "min": 16, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 2, "max": 3 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:ender_pearl", "quantity": { "min": 8, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": { "min": 3, "max": 5 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 40, "max": 56 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:end_wand", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 22, "max": 26 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:dragonfang", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 12 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:golden_apple", "quantity": { "min": 2, "max": 4 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 4, "max": 5 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:bread", "quantity": { "min": 16, "max": 32 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 12 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:ender_chest", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:red_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:orange_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:yellow_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:lime_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:green_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:light_blue_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:cyan_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:blue_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:pink_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:magenta_shulker_box", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:purple_shulker_box", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 8 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:shulker_shell", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 12 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:end_crystal", "quantity": { "min": 1, "max": 2 } } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 8 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:dragon_breath", "quantity": { "min": 2, "max": 4 } } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 32, "max": 48 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:elytra", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 24, "max": 32 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:dragon_head", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:spire_armor_trim_smithing_template", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:eye_armor_trim_smithing_template", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 5,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 22 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_helmet", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 28 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_chestplate", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 24 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_leggings", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 20 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_boots", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 14, "max": 18 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_sword", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 16, "max": 20 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_pickaxe", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 12, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_axe", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 16 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_shovel", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 10, "max": 14 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:diamond_hoe", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 10 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:iron_helmet", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 8, "max": 15 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:iron_chestplate", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 7, "max": 12 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:iron_leggings", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 6, "max": 10 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:iron_boots", "quantity": 1,
+					   "functions": [
+                          {
+                            "function": "enchant_randomly",
+							"treasure": true
+                          }
+					    ]
+					}]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 3, "max": 5 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:end_stone", "quantity": 64 } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

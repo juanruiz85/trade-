@@ -1,0 +1,192 @@
+{
+   "resource_pack_name" : "DODOTA",
+   "texture_name" : "atlas.items",
+   "texture_data" : {
+      "dodo_ta_guide" : { "textures" : "textures/dodo/ta/guide/item" },
+      "dodo_ta_settings" : { "textures" : "textures/dodo/ta/settings_item" },
+      "dodo_ta_stool" : {
+         "textures" : [
+			"textures/dodo/ta/stool/oak_item",
+			"textures/dodo/ta/stool/spruce_item",
+			"textures/dodo/ta/stool/birch_item",
+			"textures/dodo/ta/stool/jungle_item",
+			"textures/dodo/ta/stool/acacia_item",
+			"textures/dodo/ta/stool/dark_oak_item",
+			"textures/dodo/ta/stool/mangrove_item",
+			"textures/dodo/ta/stool/cherry_item"
+		 ]
+      },
+      "dodo_ta_chair" : {
+         "textures" : [
+			"textures/dodo/ta/chair/oak_item",
+			"textures/dodo/ta/chair/spruce_item",
+			"textures/dodo/ta/chair/birch_item",
+			"textures/dodo/ta/chair/jungle_item",
+			"textures/dodo/ta/chair/acacia_item",
+			"textures/dodo/ta/chair/dark_oak_item",
+			"textures/dodo/ta/chair/mangrove_item",
+			"textures/dodo/ta/chair/cherry_item"
+		 ]
+      },
+      "dodo_ta_bench" : {
+         "textures" : [
+			"textures/dodo/ta/bench/oak_item",
+			"textures/dodo/ta/bench/spruce_item",
+			"textures/dodo/ta/bench/birch_item",
+			"textures/dodo/ta/bench/jungle_item",
+			"textures/dodo/ta/bench/acacia_item",
+			"textures/dodo/ta/bench/dark_oak_item",
+			"textures/dodo/ta/bench/mangrove_item",
+			"textures/dodo/ta/bench/cherry_item"
+		 ]
+      },
+      "dodo_ta_table" : {
+         "textures" : [
+			"textures/dodo/ta/table/oak_item",
+			"textures/dodo/ta/table/spruce_item",
+			"textures/dodo/ta/table/birch_item",
+			"textures/dodo/ta/table/jungle_item",
+			"textures/dodo/ta/table/acacia_item",
+			"textures/dodo/ta/table/dark_oak_item",
+			"textures/dodo/ta/table/mangrove_item",
+			"textures/dodo/ta/table/cherry_item"
+		 ]
+      },
+      "dodo_ta_dresser" : {
+         "textures" : [
+			"textures/dodo/ta/dresser/oak_item",
+			"textures/dodo/ta/dresser/spruce_item",
+			"textures/dodo/ta/dresser/birch_item",
+			"textures/dodo/ta/dresser/jungle_item",
+			"textures/dodo/ta/dresser/acacia_item",
+			"textures/dodo/ta/dresser/dark_oak_item",
+			"textures/dodo/ta/dresser/mangrove_item",
+			"textures/dodo/ta/dresser/cherry_item"
+		 ]
+      },
+      "dodo_ta_plant" : {
+         "textures" : [
+			"textures/dodo/ta/plant/0_item",
+			"textures/dodo/ta/plant/1_item",
+			"textures/dodo/ta/plant/2_item",
+			"textures/dodo/ta/plant/3_item",
+			"textures/dodo/ta/plant/4_item",
+			"textures/dodo/ta/plant/5_item",
+			"textures/dodo/ta/plant/6_item",
+			"textures/dodo/ta/plant/7_item",
+			"textures/dodo/ta/plant/8_item",
+			"textures/dodo/ta/plant/9_item"
+		 ]
+      },
+      "dodo_ta_tech" : {
+         "textures" : [
+			"textures/dodo/ta/laptop/item",
+			"textures/dodo/ta/computer/item",
+			"textures/dodo/ta/camera/item"
+		 ]
+      },
+      "dodo_ta_plushie" : {
+         "textures" : [
+			"textures/dodo/ta/plushies/pig_plushie_item",
+			"textures/dodo/ta/plushies/chicken_plushie_item",
+			"textures/dodo/ta/plushies/cow_plushie_item",
+			"textures/dodo/ta/plushies/bee_plushie_item",
+			"textures/dodo/ta/plushies/rabbit_plushie_item",
+			"textures/dodo/ta/plushies/fox_plushie_item",
+			"textures/dodo/ta/plushies/turtle_plushie_item",
+			"textures/dodo/ta/plushies/axolotl_plushie_item",
+			"textures/dodo/ta/plushies/zombie_plushie_item",
+			"textures/dodo/ta/plushies/creeper_plushie_item",
+			"textures/dodo/ta/plushies/blaze_plushie_item",
+			"textures/dodo/ta/plushies/enderman_plushie_item"
+		 ]
+      },
+      "dodo_ta_vehicles" : {
+         "textures" : [
+			"textures/dodo/ta/bike/0_item",
+			"textures/dodo/ta/bike/1_item",
+			"textures/dodo/ta/boat/0_item",
+			"textures/dodo/ta/boat/1_item",
+			"textures/dodo/ta/car/0_item",
+			"textures/dodo/ta/car/1_item",
+			"textures/dodo/ta/jetski/0_item",
+			"textures/dodo/ta/jetski/1_item",
+			"textures/dodo/ta/motorcycle/0_item",
+			"textures/dodo/ta/motorcycle/1_item",
+			"textures/dodo/ta/propeller_plane/0_item",
+			"textures/dodo/ta/propeller_plane/1_item",
+			"textures/dodo/ta/quad/0_item",
+			"textures/dodo/ta/quad/1_item",
+			"textures/dodo/ta/creeper_mobile_item"
+		 ]
+      },
+      "dodo_ta_burrito" : { "textures" : "textures/dodo/ta/fast_food/burrito_item" },
+      "dodo_ta_chocolate" : { "textures" : "textures/dodo/ta/fast_food/chocolate_item" },
+      "dodo_ta_fried_chicken" : { "textures" : "textures/dodo/ta/fast_food/fried_chicken_item" },
+      "dodo_ta_fries" : { "textures" : "textures/dodo/ta/fast_food/fries_item" },
+      "dodo_ta_hamburger" : { "textures" : "textures/dodo/ta/fast_food/hamburger_item" },
+      "dodo_ta_hot_dog" : { "textures" : "textures/dodo/ta/fast_food/hot_dog_item" },
+      "dodo_ta_ice_cream" : { "textures" : "textures/dodo/ta/fast_food/ice_cream_item" },
+      "dodo_ta_iced_coffee" : { "textures" : "textures/dodo/ta/fast_food/iced_coffee_item" },
+      "dodo_ta_milkshake" : { "textures" : "textures/dodo/ta/fast_food/milkshake_item" },
+      "dodo_ta_muffin" : { "textures" : "textures/dodo/ta/fast_food/muffin_item" },
+      "dodo_ta_pizza" : { "textures" : "textures/dodo/ta/fast_food/pizza_item" },
+      "dodo_ta_taco" : { "textures" : "textures/dodo/ta/fast_food/taco_item" },
+      "dodo_ta_apple_juice" : { "textures" : "textures/dodo/ta/fast_food/apple_juice_item" },
+      "dodo_ta_potato_chips" : { "textures" : "textures/dodo/ta/fast_food/potato_chips_item" },
+      "dodo_ta_levels_10" : { "textures" : "textures/dodo/ta/levels_10_item" },
+      "dodo_ta_levels_100" : { "textures" : "textures/dodo/ta/levels_100_item" },
+      "dodo_ta_exp_bag_small" : { "textures" : "textures/dodo/ta/exp_bag_small_item" },
+      "dodo_ta_exp_bag_large" : { "textures" : "textures/dodo/ta/exp_bag_large_item" },
+      "dodo_ta_warden_apple" : { "textures" : "textures/dodo/ta/warden/warden_apple_item" },
+      "dodo_ta_warden_totem" : { "textures" : "textures/dodo/ta/warden/warden_totem_item" },
+      "dodo_ta_warden_sword" : { "textures" : "textures/dodo/ta/warden/warden_sword_item" },
+      "dodo_ta_warden_helmet" : { "textures" : "textures/dodo/ta/warden/warden_helmet_item" },
+      "dodo_ta_warden_chestplate" : { "textures" : "textures/dodo/ta/warden/warden_chestplate_item" },
+      "dodo_ta_warden_leggings" : { "textures" : "textures/dodo/ta/warden/warden_leggings_item" },
+      "dodo_ta_warden_boots" : { "textures" : "textures/dodo/ta/warden/warden_boots_item" },
+      "dodo_ta_battle_axe" : { "textures" : "textures/dodo/ta/weapons/battle_axe_item" },
+      "dodo_ta_club" : { "textures" : "textures/dodo/ta/weapons/club_item" },
+      "dodo_ta_copper_sword_00" : { "textures" : "textures/dodo/ta/weapons/copper_sword_00_item" },
+      "dodo_ta_copper_sword_01" : { "textures" : "textures/dodo/ta/weapons/copper_sword_01_item" },
+      "dodo_ta_copper_sword_02" : { "textures" : "textures/dodo/ta/weapons/copper_sword_02_item" },
+      "dodo_ta_copper_sword_03" : { "textures" : "textures/dodo/ta/weapons/copper_sword_03_item" },
+      "dodo_ta_dagger" : { "textures" : "textures/dodo/ta/weapons/dagger_item" },
+      "dodo_ta_double_axe" : { "textures" : "textures/dodo/ta/weapons/double_axe_item" },
+      "dodo_ta_dragonfang" : { "textures" : "textures/dodo/ta/weapons/dragonfang_item" },
+      "dodo_ta_end_wand" : { "textures" : "textures/dodo/ta/weapons/end_wand_item" },
+      "dodo_ta_fire_armblade" : { "textures" : "textures/dodo/ta/weapons/fire_armblade_item" },
+      "dodo_ta_flamebrand_00" : { "textures" : "textures/dodo/ta/weapons/flamebrand_00_item" },
+      "dodo_ta_flamebrand_01" : { "textures" : "textures/dodo/ta/weapons/flamebrand_01_item" },
+      "dodo_ta_golden_trident" : { "textures" : "textures/dodo/ta/weapons/golden_trident_item" },
+      "dodo_ta_great_hammer" : { "textures" : "textures/dodo/ta/weapons/great_hammer_item" },
+      "dodo_ta_katana" : { "textures" : "textures/dodo/ta/weapons/katana_item" },
+      "dodo_ta_magic_wand" : { "textures" : "textures/dodo/ta/weapons/magic_wand_item" },
+      "dodo_ta_scimitar" : { "textures" : "textures/dodo/ta/weapons/scimitar_item" },
+      "dodo_ta_scythe" : { "textures" : "textures/dodo/ta/weapons/scythe_item" },
+      "dodo_ta_sickle" : { "textures" : "textures/dodo/ta/weapons/sickle_item" },
+      "dodo_ta_spear" : { "textures" : "textures/dodo/ta/weapons/spear_item" },
+      "dodo_ta_venomstrike" : { "textures" : "textures/dodo/ta/weapons/venomstrike_item" },
+      "dodo_ta_villager_claymore" : { "textures" : "textures/dodo/ta/weapons/villager_claymore_item" },
+      "dodo_ta_warhammer" : { "textures" : "textures/dodo/ta/weapons/warhammer_item" },
+      "dodo_ta_rainbow_sword" : { "textures" : "textures/dodo/ta/rainbow/rainbow_sword_item" },
+      "dodo_ta_rainbow_pickaxe" : { "textures" : "textures/dodo/ta/rainbow/rainbow_pickaxe_item" },
+      "dodo_ta_rainbow_axe" : { "textures" : "textures/dodo/ta/rainbow/rainbow_axe_item" },
+      "dodo_ta_rainbow_shovel" : { "textures" : "textures/dodo/ta/rainbow/rainbow_shovel_item" },
+      "dodo_ta_rainbow_hoe" : { "textures" : "textures/dodo/ta/rainbow/rainbow_hoe_item" },
+      "dodo_ta_rainbow_helmet" : { "textures" : "textures/dodo/ta/rainbow/rainbow_helmet_item" },
+      "dodo_ta_rainbow_chestplate" : { "textures" : "textures/dodo/ta/rainbow/rainbow_chestplate_item" },
+      "dodo_ta_rainbow_leggings" : { "textures" : "textures/dodo/ta/rainbow/rainbow_leggings_item" },
+      "dodo_ta_rainbow_boots" : { "textures" : "textures/dodo/ta/rainbow/rainbow_boots_item" },
+      "dodo_ta_torch_helmet" : { "textures" : "textures/dodo/ta/torch_helmet_item" },
+      "dodo_ta_diamond_clock" : { "textures" : "textures/dodo/ta/diamond_clock_item" },
+      "dodo_ta_dual_pickaxe" : { "textures" : "textures/dodo/ta/dual_pickaxe_item" },
+      "dodo_ta_pick_axe" : { "textures" : "textures/dodo/ta/pick_axe_item" },
+      "dodo_ta_pickaxe_sword" : { "textures" : "textures/dodo/ta/pickaxe_sword_item" },
+      "dodo_ta_treasure_chest" : { "textures" : "textures/dodo/ta/treasure_chest_item" },
+      "dodo_ta_mega_pickaxe" : { "textures" : "textures/dodo/ta/mega/mega_pickaxe_item" },
+      "dodo_ta_mega_axe" : { "textures" : "textures/dodo/ta/mega/mega_axe_item" },
+      "dodo_ta_mega_shovel" : { "textures" : "textures/dodo/ta/mega/mega_shovel_item" },
+      "dodo_ta_mega_hoe" : { "textures" : "textures/dodo/ta/mega/mega_hoe_item" }
+   }
+}

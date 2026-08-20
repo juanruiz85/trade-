@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.object.shake": {
+			"animation_length": 0.5,
+			"bones": {
+				"Main_bone": {
+					"rotation": {
+						"0.0": [
+							"Math.cos(query.anim_time*2000-query.anim_time*600)*1-1",
+							"Math.cos(query.anim_time*3000-query.anim_time*900)*10-10",
+							"Math.cos(query.anim_time*3000-query.anim_time*600)*1-1"
+						],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

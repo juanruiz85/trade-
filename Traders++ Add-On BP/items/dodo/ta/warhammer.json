@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:warhammer",
+	  "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+	  }
+    },
+
+    "components": {
+	  "tag:minecraft:is_sword": {},
+	  "minecraft:damage": { "value": 10 },
+	  "minecraft:icon": { "texture": "dodo_ta_warhammer" },
+	  "minecraft:can_destroy_in_creative": false,
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:enchantable": { "value": 15, "slot": "sword" },
+	  "minecraft:cooldown":{
+		"category" : "dodo_ta_warhammer",
+		"duration" : 2.0
+	  },
+      "minecraft:use_duration": 9999,
+	  "minecraft:interact_button": "dodo.studios.ta.use.warhammer",
+      "minecraft:food": { "can_always_eat": true, "nutrition": 0 }
+	}
+  }
+}

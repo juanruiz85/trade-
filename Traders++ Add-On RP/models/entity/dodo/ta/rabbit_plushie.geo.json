@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.rabbit_plushie",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [4, 7, 4], "pivot": [0, 3.5, 1], "rotation": [35, 0, 0], "uv": [0, 10]},
+						{"origin": [-1, -0.17132, 4.73242], "size": [2, 2, 2], "pivot": [0, 2.42868, 5.83242], "rotation": [-77.5, 0, 0], "uv": [20, 0]},
+						{"origin": [-2.5, 4.05999, -3.09094], "size": [5, 5, 5], "pivot": [0, 8.05999, -0.09094], "rotation": [-7.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-2.5, 8.76907, 0.29636], "size": [2, 4, 1], "pivot": [-1.5, 10.96907, 0.79636], "rotation": [-5.71946, -15.75037, -5.71946], "uv": [20, 4]},
+						{"origin": [-0.5, 5.05999, -3.59094], "size": [1, 1, 1], "pivot": [0, 8.05999, -0.09094], "rotation": [-7.5, 0, 0], "uv": [4, 21]},
+						{"origin": [-3, 0, -2], "size": [2, 1, 5], "pivot": [-1, 2, 3], "rotation": [0, 22.5, 0], "uv": [16, 10]},
+						{"origin": [-3, 1, 0], "size": [2, 2, 3], "pivot": [-1, 2, 3], "rotation": [0, 22.5, 0], "uv": [16, 16]},
+						{"origin": [1, 1, 0], "size": [2, 2, 3], "pivot": [1, 2, 3], "rotation": [0, -22.5, 0], "uv": [16, 16], "mirror": true},
+						{"origin": [-2, -0.45, -2.2], "size": [1, 5, 1], "inflate": 0.2, "pivot": [0, 4.8, -0.7], "rotation": [-10, 0, 7.5], "uv": [0, 21]},
+						{"origin": [1, -0.45, -2.2], "size": [1, 5, 1], "inflate": 0.2, "pivot": [0, 4.8, -0.7], "rotation": [-10, 0, -7.5], "uv": [0, 21], "mirror": true},
+						{"origin": [1, 0, -2], "size": [2, 1, 5], "pivot": [1, 2, 3], "rotation": [0, -22.5, 0], "uv": [16, 10], "mirror": true},
+						{"origin": [0.5, 8.76907, 0.29636], "size": [2, 4, 1], "pivot": [1.5, 10.96907, 0.79636], "rotation": [-5.71946, 15.75037, 5.71946], "uv": [20, 4], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

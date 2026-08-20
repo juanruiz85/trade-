@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.furniture_trader": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+			"Texture.variant_00",
+			"Texture.variant_01",
+			"Texture.variant_02",
+			"Texture.variant_03",
+			"Texture.variant_04",
+			"Texture.variant_05",
+			"Texture.variant_06",
+			"Texture.variant_07"
+			]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

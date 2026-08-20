@@ -1,0 +1,78 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 8,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:acacia_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_acacia_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:birch_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_birch_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:cherry_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_cherry_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:crafting_table", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_crafting_table", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:dark_oak_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_dark_oak_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:diamond_block", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_diamond_block", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:emerald_block", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_emerald_block", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:gold_block", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_gold_block", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:hay_block", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_hay_bale", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:iron_block", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_iron_block", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:jungle_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_jungle_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:mangrove_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_mangrove_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:oak_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_oak_log", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:polished_andesite", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_polished_andesite", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:shroomlight", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_shroomlight", "quantity": 8 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": 1 }, { "item": "minecraft:spruce_log", "quantity": 1 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:mini_spruce_log", "quantity": 8 } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

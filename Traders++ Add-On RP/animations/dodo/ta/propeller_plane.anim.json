@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.propeller_plane.idle": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"rotor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [0, 0, "360*2"]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.propeller_plane.move": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"rotor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, "360*2"]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.propeller_plane.steer": {
+			"loop": true,
+			"bones": {
+				"bone7": {
+					"rotation": [0, 0, "Math.clamp(query.yaw_speed * -0.3, -60, 60)"]
+				}
+			}
+		},
+		"animation.dodo_ta.propeller_plane.on_ground": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"rotor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 0, "360*2"]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.propeller_plane.in_air": {
+			"loop": true,
+			"bones": {
+				"wheel2": {
+					"rotation": [107.5, 0, 0],
+					"position": [0, 2, 0],
+					"scale": 0.5
+				},
+				"wheel": {
+					"rotation": [107.5, 0, 0],
+					"position": [0, 1, 0],
+					"scale": 0.5
+				},
+				"wheel3": {
+					"rotation": [107.5, 0, 0],
+					"position": [0, 1, 0],
+					"scale": 0.5
+				}
+			}
+		}
+	}
+}

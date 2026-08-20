@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:guide",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "page_0": "textures/dodo/ta/guide/0",
+        "page_1": "textures/dodo/ta/guide/1",
+        "page_2": "textures/dodo/ta/guide/2",
+        "page_3": "textures/dodo/ta/guide/3",
+        "page_4": "textures/dodo/ta/guide/4",
+        "page_5": "textures/dodo/ta/guide/5",
+        "page_6": "textures/dodo/ta/guide/6",
+        "page_7": "textures/dodo/ta/guide/7",
+        "page_8": "textures/dodo/ta/guide/8",
+        "page_9": "textures/dodo/ta/guide/9",
+        "page_10": "textures/dodo/ta/guide/10",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.guide"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.guide.wield.fp",
+        "wield_third_person": "animation.dodo_ta.guide.wield.tp",
+        "guide_controller": "controller.animation.dodo_ta.guide.controls",
+        "open": "animation.dodo_ta.guide.open",
+        "standby": "animation.dodo_ta.guide.standby",
+        "next_page": "animation.dodo_ta.guide.next_page",
+        "previous_page": "animation.dodo_ta.guide.previous_page"
+      },
+      "scripts": {
+		"initialize": [
+		  "variable.dodo_ta_page=0;"
+        ],
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" },
+          { "guide_controller": "c.item_slot == 'main_hand'" }
+        ]
+      },
+	  "sound_effects": {
+        "page_turn": "item.book.page_turn"
+	  },
+      "render_controllers": [ "controller.render.dodo_ta.guide" ]
+    }
+  }
+}

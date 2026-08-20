@@ -1,0 +1,772 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_0",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 7, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [0, 8, -4], "size": [0, 9, 8], "uv": [0, 13]},
+						{"origin": [0, 8, -4], "size": [0, 9, 8], "pivot": [0, 12.5, 0], "rotation": [0, 90, 0], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-3, 2, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [-4, 7, -4], "size": [8, 1, 8], "uv": [17, 49]},
+						{"origin": [-4, -0.3, -4], "size": [2, 9, 2], "pivot": [-3.5, 3.25, -3.5], "rotation": [10, 0, -10], "uv": [16, 37]},
+						{"origin": [-4, -0.3, 2], "size": [2, 9, 2], "pivot": [-3.5, 3.25, 3.5], "rotation": [-10, 0, -10], "uv": [8, 37]},
+						{"origin": [2, -0.3, -4], "size": [2, 9, 2], "pivot": [3.5, 3.25, -3.5], "rotation": [10, 0, 10], "uv": [16, 37], "mirror": true},
+						{"origin": [2, -0.3, 2], "size": [2, 9, 2], "pivot": [3.5, 3.25, 3.5], "rotation": [-10, 0, 10], "uv": [8, 37], "mirror": true},
+						{"origin": [-3, 8, 2], "size": [6, 1, 1], "uv": [17, 23]},
+						{"origin": [-3, 8, -3], "size": [6, 1, 1], "uv": [19, 0]},
+						{"origin": [-2, 8, -3], "size": [4, 1, 1], "pivot": [0, 8.5, 0], "rotation": [0, 90, 0], "uv": [26, 3]},
+						{"origin": [-2, 8, 2], "size": [4, 1, 1], "pivot": [0, 8.5, 0], "rotation": [0, 90, 0], "uv": [26, 6]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_1",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 5, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 6, -4], "size": [0, 9, 8], "uv": [0, 13]},
+						{"origin": [0, 6, -4], "size": [0, 9, 8], "pivot": [0, 10.5, 0], "rotation": [0, 90, 0], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [-4, 1, -4], "size": [8, 5, 8], "uv": [9, 27]},
+						{"origin": [-3, 6, 2], "size": [6, 1, 1], "uv": [17, 23]},
+						{"origin": [-3, 6, -3], "size": [6, 1, 1], "uv": [19, 0]},
+						{"origin": [-2, 6, -3], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 3]},
+						{"origin": [-2, 6, 2], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 6]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_2",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 6, -4], "size": [0, 9, 8], "uv": [0, 13]},
+						{"origin": [0, 6, -4], "size": [0, 9, 8], "pivot": [0, 10.5, 0], "rotation": [0, 90, 0], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [-3, 6, 2], "size": [6, 1, 1], "uv": [17, 23]},
+						{"origin": [-3, 6, -3], "size": [6, 1, 1], "uv": [19, 0]},
+						{"origin": [-2, 6, -3], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 3]},
+						{"origin": [-2, 6, 2], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 6]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_3",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 6, -1.5], "size": [3, 9, 3], "uv": [0, 52]},
+						{"origin": [-2.5, 9, -0.5], "size": [1, 1, 1], "uv": [12, 62]},
+						{"origin": [-4.25, 8.9, -1], "size": [2, 4, 2], "pivot": [-3.25, 11.4, 0], "rotation": [0, 0, -5], "uv": [16, 58]},
+						{"origin": [-0.5, 6, -2.5], "size": [1, 9, 5], "uv": [0, 12]},
+						{"origin": [-0.5, 6, -2.5], "size": [1, 9, 5], "pivot": [0, 10.5, 0], "rotation": [0, 90, 0], "uv": [0, 27]}
+					]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [-3, 6, 2], "size": [6, 1, 1], "uv": [17, 23]},
+						{"origin": [-3, 6, -3], "size": [6, 1, 1], "uv": [19, 0]},
+						{"origin": [-2, 6, -3], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 3]},
+						{"origin": [-2, 6, 2], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 6]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_4",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 6, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 6, 6], "uv": [0, 0]},
+						{"origin": [-3, 6, 2], "size": [6, 1, 1], "uv": [17, 23]},
+						{"origin": [-3, 6, -3], "size": [6, 1, 1], "uv": [19, 0]},
+						{"origin": [-2, 6, -3], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 3]},
+						{"origin": [-2, 6, 2], "size": [4, 1, 1], "pivot": [0, 6.5, 0], "rotation": [0, 90, 0], "uv": [26, 6]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "Plant",
+					"pivot": [-0.85, 1.5, 0.25],
+					"rotation": [2.56344, 0.9762, 2.43656],
+					"cubes": [
+						{"origin": [-0.35, 0, -0.25], "size": [0, 17, 1], "uv": [62, 46]},
+						{"origin": [0.13304, 0.12838, -0.23601], "size": [0, 17, 1], "pivot": [-0.85, 8.5, 0.25], "rotation": [-0.1707, 28.07759, 12.4062], "uv": [62, 25]},
+						{"origin": [-0.53519, -3.14577, -0.52488], "size": [0, 17, 1], "pivot": [-0.85, 8.5, 0.25], "rotation": [-164.78409, -38.87129, 157.9576], "uv": [62, 25]},
+						{"origin": [-3.85, 17, -3.25], "size": [7, 0, 7], "uv": [34, 57]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_5",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0.5, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 10, -4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 3]},
+						{"origin": [-3.5, 10, 4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-5.5, 9, 6], "size": [11, 2, 1], "pivot": [0, 0, 1], "rotation": [-180, 0, 180], "uv": [35, 19]},
+						{"origin": [-5.5, 9, 5], "size": [11, 2, 1], "uv": [35, 19]},
+						{"origin": [4.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10]},
+						{"origin": [-5.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10], "mirror": true},
+						{"origin": [-4.5, 10, 4], "size": [9, 1, 1], "uv": [18, 0]},
+						{"origin": [-4.5, 10, -4], "size": [9, 1, 1], "uv": [18, 3]},
+						{"origin": [-4.5, 0, -4], "size": [9, 10, 9], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [0, 10, -8], "size": [0, 18, 17], "uv": [18, 19]},
+						{"origin": [0, 10, -8], "size": [0, 18, 17], "pivot": [0, 19, 0.5], "rotation": [0, 90, 0], "uv": [18, 19]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_6",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0.5, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 10, -4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 3]},
+						{"origin": [-3.5, 10, 4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-5.5, 9, 6], "size": [11, 2, 1], "pivot": [0, 0, 1], "rotation": [-180, 0, 180], "uv": [35, 19]},
+						{"origin": [-5.5, 9, 5], "size": [11, 2, 1], "uv": [35, 19]},
+						{"origin": [4.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10]},
+						{"origin": [-5.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10], "mirror": true},
+						{"origin": [-4.5, 10, 4], "size": [9, 1, 1], "uv": [18, 0]},
+						{"origin": [-4.5, 10, -4], "size": [9, 1, 1], "uv": [18, 3]},
+						{"origin": [-4.5, 0, -4], "size": [9, 10, 9], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "Leaves",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [0, 10, -8], "size": [0, 18, 17], "uv": [18, 19]},
+						{"origin": [0, 10, -8], "size": [0, 18, 17], "pivot": [0, 19, 0.5], "rotation": [0, 90, 0], "uv": [18, 19]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_7",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "bone7",
+					"parent": "Main_bone",
+					"pivot": [-1, 17.5, 0.5]
+				},
+				{
+					"name": "bone",
+					"parent": "bone7",
+					"pivot": [-1, 13.5, -0.5],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 7.17037, -2.2941], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-4, 24.17037, -5.2941], "size": [7, 0, 7], "uv": [-7, 121]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone7",
+					"pivot": [-0.6, 8.5, 0.5],
+					"rotation": [-25, -42.5, 0],
+					"cubes": [
+						{"origin": [-0.1, 2.46846, 2.11309], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-3.6, 19.46846, -0.88691], "size": [7, 0, 7], "uv": [-7, 100]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone7",
+					"pivot": [0, 10.5, 0.5],
+					"rotation": [155, -60, -180],
+					"cubes": [
+						{"origin": [0.5, 4.46846, 2.11309], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-3, 21.46846, -0.88691], "size": [7, 0, 7], "uv": [-7, 114]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone7",
+					"pivot": [0.4, 8.5, 1.5],
+					"rotation": [-10.27235, 31.63886, 7.85085],
+					"cubes": [
+						{"origin": [1.48146, 2.19015, 2.2358], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-2.01854, 19.19015, -0.7642], "size": [7, 0, 7], "uv": [-7, 114]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone7",
+					"pivot": [-1.6, 4.5, 0.5],
+					"rotation": [154.78199, 59.99744, 177.31358],
+					"cubes": [
+						{"origin": [-0.98282, -1.60496, 1.94437], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-4.48282, 15.39504, -1.05563], "size": [7, 0, 7], "uv": [-7, 93]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone7",
+					"pivot": [-1, 13.5, 0.5],
+					"rotation": [-121.03884, -76.91252, 119.16253],
+					"cubes": [
+						{"origin": [0.48868, 3.09985, 0.10523], "size": [0, 21, 1], "uv": [111, 106]},
+						{"origin": [-3.01132, 24.09985, -2.89477], "size": [7, 0, 7], "uv": [-7, 107]}
+					]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0.5, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 10, -4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 3]},
+						{"origin": [-3.5, 10, 4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-5.5, 9, 6], "size": [11, 2, 1], "pivot": [0, 0, 1], "rotation": [-180, 0, 180], "uv": [35, 19]},
+						{"origin": [-5.5, 9, 5], "size": [11, 2, 1], "uv": [35, 19]},
+						{"origin": [4.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10]},
+						{"origin": [-5.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10], "mirror": true},
+						{"origin": [-4.5, 10, 4], "size": [9, 1, 1], "uv": [18, 0]},
+						{"origin": [-4.5, 10, -4], "size": [9, 1, 1], "uv": [18, 3]},
+						{"origin": [-4.5, 0, -4], "size": [9, 10, 9], "uv": [36, 0]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_8",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0.5, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 10, -4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 3]},
+						{"origin": [-3.5, 10, 4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-5.5, 9, 6], "size": [11, 2, 1], "pivot": [0, 0, 1], "rotation": [-180, 0, 180], "uv": [35, 19]},
+						{"origin": [-5.5, 9, 5], "size": [11, 2, 1], "uv": [35, 19]},
+						{"origin": [4.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10]},
+						{"origin": [-5.5, 9, -4], "size": [1, 2, 9], "uv": [63, 10], "mirror": true},
+						{"origin": [-4.5, 10, 4], "size": [9, 1, 1], "uv": [18, 0]},
+						{"origin": [-4.5, 10, -4], "size": [9, 1, 1], "uv": [18, 3]},
+						{"origin": [-4.5, 0, -4], "size": [9, 10, 9], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "Main_bone",
+					"pivot": [-1, 17.5, 0.5]
+				},
+				{
+					"name": "bone",
+					"parent": "bone7",
+					"pivot": [-1, 13.5, -0.5],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 7.17037, -2.2941], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-4, 24.17037, -5.2941], "size": [7, 0, 7], "uv": [-7, 121]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone7",
+					"pivot": [-0.6, 8.5, 0.5],
+					"rotation": [-25, -42.5, 0],
+					"cubes": [
+						{"origin": [-0.1, 2.46846, 2.11309], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-3.6, 19.46846, -0.88691], "size": [7, 0, 7], "uv": [-7, 100]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone7",
+					"pivot": [0, 10.5, 0.5],
+					"rotation": [155, -60, -180],
+					"cubes": [
+						{"origin": [0.5, 4.46846, 2.11309], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-3, 21.46846, -0.88691], "size": [7, 0, 7], "uv": [-7, 114]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone7",
+					"pivot": [0.4, 8.5, 1.5],
+					"rotation": [-10.27235, 31.63886, 7.85085],
+					"cubes": [
+						{"origin": [1.48146, 2.19015, 2.2358], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-2.01854, 19.19015, -0.7642], "size": [7, 0, 7], "uv": [-7, 114]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone7",
+					"pivot": [-1.6, 4.5, 0.5],
+					"rotation": [154.78199, 59.99744, 177.31358],
+					"cubes": [
+						{"origin": [-0.98282, -1.60496, 1.94437], "size": [0, 17, 1], "uv": [124, 109]},
+						{"origin": [-4.48282, 15.39504, -1.05563], "size": [7, 0, 7], "uv": [-7, 93]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone7",
+					"pivot": [-1, 13.5, 0.5],
+					"rotation": [-121.03884, -76.91252, 119.16253],
+					"cubes": [
+						{"origin": [0.48868, 3.09985, 0.10523], "size": [0, 21, 1], "uv": [111, 106]},
+						{"origin": [-3.01132, 24.09985, -2.89477], "size": [7, 0, 7], "uv": [-7, 107]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.plant_9",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "bone21",
+					"parent": "Main_bone",
+					"pivot": [-1.5, 10, 2],
+					"rotation": [153.56843, 84.24405, 146.6313],
+					"cubes": [
+						{"origin": [-4.5, 10, 2], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone22",
+					"parent": "bone21",
+					"pivot": [-1.5, 14, 2],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 14, 2], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone23",
+					"parent": "bone22",
+					"pivot": [-1.5, 18, 2],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 18, 2], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone24",
+					"parent": "bone23",
+					"pivot": [-1.5, 22, 2],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 22, 2], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "bone17",
+					"parent": "Main_bone",
+					"pivot": [0.5, 10, 2],
+					"rotation": [-170.78842, -37.24551, 176.02647],
+					"cubes": [
+						{"origin": [-2.5, 10, 2], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone18",
+					"parent": "bone17",
+					"pivot": [0.5, 14, 2],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 14, 2], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone19",
+					"parent": "bone18",
+					"pivot": [0.5, 18, 2],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 18, 2], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone20",
+					"parent": "bone19",
+					"pivot": [0.5, 22, 2],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 22, 2], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "bone13",
+					"parent": "Main_bone",
+					"pivot": [-0.5, 10, 2],
+					"rotation": [-155, 32.5, 180],
+					"cubes": [
+						{"origin": [-3.5, 10, 2], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone14",
+					"parent": "bone13",
+					"pivot": [-0.5, 14, 2],
+					"rotation": [32.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 14, 2], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone15",
+					"parent": "bone14",
+					"pivot": [-0.5, 18, 2],
+					"rotation": [42.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 18, 2], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone16",
+					"parent": "bone15",
+					"pivot": [-0.5, 22, 2],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 22, 2], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "bone9",
+					"parent": "Main_bone",
+					"pivot": [0.5, 10, 0],
+					"rotation": [-155, -80, 180],
+					"cubes": [
+						{"origin": [-2.5, 10, 0], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone10",
+					"parent": "bone9",
+					"pivot": [0.5, 14, 0],
+					"rotation": [32.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 14, 0], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone11",
+					"parent": "bone10",
+					"pivot": [0.5, 18, 0],
+					"rotation": [42.5, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 18, 0], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone12",
+					"parent": "bone11",
+					"pivot": [0.5, 22, 0],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 22, 0], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "Main_bone",
+					"pivot": [-1.5, 10, 0],
+					"rotation": [25, 32.5, 0],
+					"cubes": [
+						{"origin": [-4.5, 10, 0], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone5",
+					"pivot": [-1.5, 14, 0],
+					"rotation": [32.5, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 14, 0], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "bone6",
+					"pivot": [-1.5, 18, 0],
+					"rotation": [42.5, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 18, 0], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone8",
+					"parent": "bone7",
+					"pivot": [-1.5, 22, 0],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 22, 0], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "Main_bone",
+					"pivot": [-0.5, 10, -1],
+					"cubes": [
+						{"origin": [-3.5, 10, -1], "size": [7, 4, 0], "uv": [114, 124]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "bone2",
+					"pivot": [-0.5, 14, -1],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 14, -1], "size": [7, 4, 0], "uv": [114, 120]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone",
+					"pivot": [-0.5, 18, -1],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 18, -1], "size": [7, 4, 0], "uv": [114, 116]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone3",
+					"pivot": [-0.5, 22, -1],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 22, -1], "size": [7, 4, 0], "uv": [114, 112]}
+					]
+				},
+				{
+					"name": "Plant",
+					"parent": "Main_bone",
+					"pivot": [0.5, 0, 0]
+				},
+				{
+					"name": "Pot",
+					"parent": "Plant",
+					"pivot": [0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 10, -4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 3]},
+						{"origin": [-3.5, 10, 4], "size": [7, 1, 1], "pivot": [0, 10.5, 0.5], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-4.5, 10, 4], "size": [9, 1, 1], "uv": [18, 0]},
+						{"origin": [-4.5, 10, -4], "size": [9, 1, 1], "uv": [18, 3]},
+						{"origin": [-4.5, 0, -4], "size": [9, 10, 9], "uv": [36, 0]},
+						{"origin": [-5.5, 1, -5], "size": [11, 9, 11], "uv": [72, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.treasure_chest": {
+      "arrays": {
+		"geometries":  {
+		  "Array.geos": [ "Geometry.variant_00", "Geometry.variant_01" ]
+		}
+      },
+	  "geometry": "Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "is_hurt_color": {},
+      "on_fire_color": {}
+    }
+  }
+}

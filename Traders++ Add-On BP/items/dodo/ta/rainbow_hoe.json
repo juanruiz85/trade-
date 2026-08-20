@@ -1,0 +1,52 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:rainbow_hoe",  
+      "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+      }
+    },
+
+    "components": {
+	  "minecraft:entity_placer": { "entity": "minecraft:pig" },
+	  "tag:minecraft:is_hoe": {},
+	  "minecraft:hand_equipped": true,
+	  "minecraft:damage": { "value": 7 },
+	  "minecraft:icon": { "texture": "dodo_ta_rainbow_hoe" },
+	  "minecraft:can_destroy_in_creative": true,
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:enchantable": { "value": 15, "slot": "hoe" },
+	  "minecraft:digger": {
+        "destroy_speeds": [
+		  { "speed": 9, "block": "minecraft:sculk_catalyst" },
+		  { "speed": 9, "block": "minecraft:sculk_shrieker" },
+		  { "speed": 9, "block": "minecraft:sculk_sensor" },
+		  { "speed": 9, "block": "minecraft:calibrated_sculk_sensor" },
+		  { "speed": 9, "block": "minecraft:nether_wart_block" },
+		  { "speed": 9, "block": "minecraft:warped_wart_block" },
+		  { "speed": 9, "block": "minecraft:shroomlight" },
+		  { "speed": 9, "block": "minecraft:hay_block" },
+		  { "speed": 9, "block": "minecraft:target" },
+		  { "speed": 9, "block": "minecraft:dried_kelp_block" },
+		  { "speed": 9, "block": "minecraft:sponge" },
+		  { "speed": 9, "block": "minecraft:wet_sponge" },
+		  { "speed": 9, "block": "minecraft:sculk" },
+		  { "speed": 9, "block": "minecraft:sculk_vein" },
+		  { "speed": 9, "block": "minecraft:acacia_leaves" },
+		  { "speed": 9, "block": "minecraft:azalea_leaves" },
+		  { "speed": 9, "block": "minecraft:azalea_leaves_flowered" },
+		  { "speed": 9, "block": "minecraft:birch_leaves" },
+		  { "speed": 9, "block": "minecraft:cherry_leaves" },
+		  { "speed": 9, "block": "minecraft:dark_oak_leaves" },
+		  { "speed": 9, "block": "minecraft:jungle_leaves" },
+		  { "speed": 9, "block": "minecraft:mangrove_leaves" },
+		  { "speed": 9, "block": "minecraft:oak_leaves" },
+		  { "speed": 9, "block": "minecraft:spruce_leaves" },
+		  { "speed": 9, "block": "minecraft:moss_block" }
+        ]
+	  }
+	}
+  }
+}

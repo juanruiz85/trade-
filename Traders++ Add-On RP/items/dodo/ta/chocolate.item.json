@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_chocolate",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_chocolate",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

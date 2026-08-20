@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.dodo_ta.shake": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "shake": "query.property('dodo_ta:shake') == true" },
+						{ "despawn": "!query.is_alive" }
+                    ]
+                },
+                "shake": {
+                    "transitions": [
+						{ "default": "query.property('dodo_ta:shake') == false" },
+						{ "despawn": "!query.is_alive" }
+					],
+                    "on_entry": [ "/scriptevent dodo_ta:object shake", "/event entity @s dodo_ta:shake_reset" ]
+				},
+                "despawn": {
+                    "transitions": [],
+                    "on_entry": [ "/scriptevent dodo_ta:object despawn" ]
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_dark_oak_chair",
+			"spawn_egg": {
+				"texture": "dodo_ta_chair",
+				"texture_index": 5
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.furniture_chair"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/chair/dark_oak"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

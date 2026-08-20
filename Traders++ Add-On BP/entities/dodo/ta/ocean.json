@@ -1,0 +1,112 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dodo_ta:ocean_trader",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+        },
+        "components": {
+			"minecraft:scale": { "value": 0 },
+			"minecraft:collision_box": { "width": 1.2, "height": 1.7 },
+			"minecraft:physics": { "has_collision": true, "has_gravity": true },
+			"minecraft:type_family": { "family": [ "squid", "trader", "traders_addon" ] },
+            "minecraft:push_through": { "value": 1 },
+			"minecraft:pushable": { "is_pushable": true, "is_pushable_by_piston": true },
+            "minecraft:health": { "value": 20, "max": 20 },
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:buoyant": {
+				"apply_gravity": false,
+				"base_buoyancy": 1.0,
+				"simulate_waves": true,
+				"big_wave_probability": 0.03,
+				"big_wave_speed": 10.0,
+				"drag_down_on_buoyancy_removed": 0,
+				"liquid_blocks": [ "water", "flowing_water" ]
+			},
+			"minecraft:underwater_movement": { "value": 0.25 },
+			"minecraft:movement": { "value": 0.2 },
+			"minecraft:navigation.walk": { "can_sink": false, "can_walk": false, "can_path_over_water": true, "can_jump": false },
+			"minecraft:movement.basic": {},
+			"minecraft:persistent": {},
+			"minecraft:behavior.float": { "priority": 0 },
+			"minecraft:behavior.trade_with_player": { "priority": 1 },
+			"minecraft:behavior.look_at_trading_player": { "priority": 2 },
+			"minecraft:behavior.move_to_water": {
+				"priority": 3,
+				"search_range": 32,
+				"search_height": 16
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{ "test" : "is_family", "subject" : "other", "value" : "guardian_elder"},
+								{ "test" : "is_family", "subject" : "other", "value" : "guardian"}
+							]
+						},
+						"max_dist": 16,
+						"walk_speed_multiplier": 0.6,
+						"sprint_speed_multiplier": 0.6
+					}
+				]
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 5,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:preferred_path" : {
+				"max_fall_blocks" : 1,
+				"jump_cost" : 1,
+				"default_block_cost" : 2,
+				"preferred_path_blocks" : [
+					{
+						"cost" : 0,
+						"blocks" : [
+							"water"
+						]
+					}
+				]
+			}
+        },
+		"component_groups": {
+			"standby": {
+				"minecraft:scale": { "value": 1.0 },
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:ocean_trader.name", "table": "trading/dodo/ta/ocean.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false }
+			},
+			"minecraft:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"dodo_ta:standby": {
+				"add": {
+					"component_groups": [ "standby" ]
+				}
+			},
+			"minecraft:instant_despawn": {
+				"add": {
+					"component_groups": [ "minecraft:instant_despawn" ]
+				}
+			}
+		}
+	}
+}

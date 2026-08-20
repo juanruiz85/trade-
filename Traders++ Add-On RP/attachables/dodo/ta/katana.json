@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:katana",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "anim_00": "textures/dodo/ta/weapons/katana/0",
+        "anim_01": "textures/dodo/ta/weapons/katana/1",
+        "anim_02": "textures/dodo/ta/weapons/katana/2",
+        "anim_03": "textures/dodo/ta/weapons/katana/3",
+        "anim_04": "textures/dodo/ta/weapons/katana/4",
+        "anim_05": "textures/dodo/ta/weapons/katana/5",
+        "anim_06": "textures/dodo/ta/weapons/katana/6",
+        "anim_07": "textures/dodo/ta/weapons/katana/0",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.katana"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.wield.fp",
+        "wield_third_person": "animation.dodo_ta.katana.wield.tp",
+        "use_controller": "controller.animation.dodo_ta.use_c",
+        "use": "animation.dodo_ta.katana.use"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" },
+          { "use_controller": "c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.dodo_ta.anim_8" ]
+    }
+  }
+}

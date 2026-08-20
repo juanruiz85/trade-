@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:rainbow_trader",
+			"spawn_egg": {
+				"base_color": "#080808",
+				"overlay_color": "#FFFFFF"
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.rainbow_trader"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.rainbow"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/rainbow"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"move": "animation.dodo_ta.rainbow.move",
+				"idle": "animation.dodo_ta.rainbow.idle"
+			},
+			"materials": {
+				"default": "experience_orb"
+			}
+		}
+	}
+}

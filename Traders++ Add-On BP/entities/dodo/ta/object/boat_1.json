@@ -1,0 +1,138 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dodo_ta:vehicles_boat_1",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+            "properties": {
+                "dodo_ta:shake": {
+                    "default": false,
+                    "type": "bool"
+                }
+            },
+            "scripts": {
+                "animate": [
+                    "shake",
+					"water_fix"
+                ]
+            },
+            "animations": {
+                "shake": "controller.animation.dodo_ta.shake",
+                "water_fix": "controller.animation.dodo_ta.water_fix"
+            }
+        },
+        "components": {
+			"minecraft:buoyant": {
+				"apply_gravity": false,
+				"base_buoyancy": 0.4,
+				"simulate_waves": false,
+				"big_wave_probability": 0.0,
+				"big_wave_speed": 10.0,
+				"drag_down_on_buoyancy_removed": 0,
+				"liquid_blocks": ["water"]
+			},
+			"minecraft:underwater_movement": { "value": 0.16 },
+			"minecraft:navigation.walk": { "can_sink": false },
+			"minecraft:movement": { "value": 0.04 },
+			"minecraft:movement.basic": {},
+			"minecraft:is_saddled": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:collision_box": { "width": 1.5, "height": 1.5 },
+			"minecraft:scale": { "value": 1.1 },
+			"minecraft:type_family": { "family": [ "vehicles", "traders_addon", "anti_kb" ] },
+		    "minecraft:knockback_resistance": { "value": 1 },
+			"minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:push_through": { "value": 1 },
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": true },
+            "minecraft:health": { "value": 20, "max": 20 },
+			"minecraft:skin_id": { "value": 0 },
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage":{
+							"filters":{
+								"all_of":[
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "dodo_ta:shake"
+						},
+						"deals_damage": false
+					},
+					{ "on_damage": { "filters": {} }, "deals_damage": false }
+				]
+			},
+			"minecraft:fire_immune": {}
+        },
+		"component_groups": {
+			"invisible": {
+				"minecraft:scale": { "value": 0.0 }
+			},
+			"not_in_water": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "action.interact.ride.dodo_ta.vehicles_boat_1",
+					"pull_in_entities": false, 
+					"seats": [
+						{ "position": [ 0, 0.65, -1.4 ], "min_rider_count": 0, "max_rider_count": 3 },
+						{ "position": [ -0.8, 0.65, -0.1 ], "min_rider_count": 1, "max_rider_count": 3 },
+						{ "position": [ 0.8, 0.65, -0.1 ], "min_rider_count": 2, "max_rider_count": 3 }
+					]
+				}
+			},
+			"in_water": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "action.interact.ride.dodo_ta.vehicles_boat_1",
+					"pull_in_entities": false, 
+					"seats": [
+						{ "position": [ 0, 0.35, -1.4 ], "min_rider_count": 0, "max_rider_count": 3 },
+						{ "position": [ -0.8, 0.35, -0.1 ], "min_rider_count": 1, "max_rider_count": 3 },
+						{ "position": [ 0.8, 0.35, -0.1 ], "min_rider_count": 2, "max_rider_count": 3 }
+					]
+				}
+			},
+			"minecraft:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"dodo_ta:shake": {
+                "set_property": {
+                    "dodo_ta:shake": true
+                }
+			},
+			"dodo_ta:shake_reset": {
+                "set_property": {
+                    "dodo_ta:shake": false
+                }
+			},
+			"dodo_ta:invisible": {
+				"add": {
+					"component_groups": [ "invisible" ]
+				}
+			},
+			"dodo_ta:not_in_water": {
+				"add": {
+					"component_groups": [ "not_in_water" ]
+				}
+			},
+			"dodo_ta:in_water": {
+				"add": {
+					"component_groups": [ "in_water" ]
+				}
+			},
+			"minecraft:instant_despawn": {
+				"add": {
+					"component_groups": [ "minecraft:instant_despawn" ]
+				}
+			}
+		}
+	}
+}

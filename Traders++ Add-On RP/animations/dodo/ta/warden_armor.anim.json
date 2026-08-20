@@ -1,0 +1,62 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.dodo_ta.warden_armor.invisible" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"head" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"leftarm" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"rightarm" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"leftleg" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"rightleg" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"cape" : {
+					"scale" : [ 0, 0, 0 ]
+				},
+				"root" : {
+					"scale" : [ 0, 0, 0 ]
+				}
+			}
+		},
+		"animation.dodo_ta.warden_armor.visible" : {
+			"bones" : {
+				"body" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"head" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"leftarm" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"rightarm" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"leftleg" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"rightleg" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"cape" : {
+					"scale" : [ 1, 1, 1 ]
+				},
+				"root" : {
+					"scale" : [ 1, 1, 1 ]
+				}
+			}
+		}
+	}
+}

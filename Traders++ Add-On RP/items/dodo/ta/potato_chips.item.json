@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_potato_chips",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_potato_chips",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

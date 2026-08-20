@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:rainbow_sword",  
+      "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+      }
+    },
+
+    "components": {
+	  "tag:minecraft:is_sword": {},
+	  "minecraft:hand_equipped": true,
+	  "minecraft:damage": { "value": 12 },
+	  "minecraft:icon": { "texture": "dodo_ta_rainbow_sword" },
+	  "minecraft:can_destroy_in_creative": false,
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:enchantable": { "value": 15, "slot": "sword" },
+	  "minecraft:digger": {
+        "destroy_speeds": [
+		  { "speed": 15, "block": "minecraft:web" }
+        ]
+	  }
+	}
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:weapons_trader",
+			"spawn_egg": {
+				"base_color": "#A40E0B",
+				"overlay_color": "#4E5662"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.weapons"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/weapons"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"attack_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"attack_controller": "controller.animation.dodo_ta.attack",
+				"move": "animation.dodo_ta.weapons.move",
+				"idle": "animation.dodo_ta.weapons.idle",
+				"attack": "animation.dodo_ta.weapons.attack"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

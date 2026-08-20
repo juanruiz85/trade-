@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_ice_cream",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_ice_cream",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

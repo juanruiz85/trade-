@@ -1,0 +1,104 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dodo_ta:furniture_jungle_chair",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+            "properties": {
+                "dodo_ta:shake": {
+                    "default": false,
+                    "type": "bool"
+                }
+            },
+            "scripts": {
+                "animate": [
+                    "shake"
+                ]
+            },
+            "animations": {
+                "shake": "controller.animation.dodo_ta.shake"
+            }
+        },
+        "components": {
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"interact_text": "action.interact.ride.dodo_ta.jungle_chair",
+				"pull_in_entities": false, 
+				"seats": [
+					{ "position": [ 0, 0.5, -0.1 ], "min_rider_count": 0, "max_rider_count": 1, "lock_rider_rotation": 90 }
+				]
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": false
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 0.6,
+						"height": 1.2,
+						"pivot": [ 0, 0.6, 0 ]
+					}
+				]
+			},
+			"minecraft:scale": { "value": 1.0 },
+			"minecraft:collision_box": { "width": 0.0, "height": 0.0 },
+			"minecraft:type_family": { "family": [ "furniture", "traders_addon", "anti_kb" ] },
+		    "minecraft:knockback_resistance": { "value": 1 },
+			"minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:push_through": { "value": 1 },
+			"minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": true },
+            "minecraft:health": { "value": 20, "max": 20 },
+			"minecraft:skin_id": { "value": 0 },
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage":{
+							"filters":{
+								"all_of":[
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "dodo_ta:shake"
+						},
+						"deals_damage": false
+					},
+					{ "on_damage": { "filters": {} }, "deals_damage": false }
+				]
+			},
+			"minecraft:fire_immune": {}
+        },
+		"component_groups": {
+			"invisible": {
+				"minecraft:scale": { "value": 0.0 }
+			},
+			"minecraft:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"dodo_ta:shake": {
+                "set_property": {
+                    "dodo_ta:shake": true
+                }
+			},
+			"dodo_ta:shake_reset": {
+                "set_property": {
+                    "dodo_ta:shake": false
+                }
+			},
+			"dodo_ta:invisible": {
+				"add": {
+					"component_groups": [ "invisible" ]
+				}
+			},
+			"minecraft:instant_despawn": {
+				"add": {
+					"component_groups": [ "minecraft:instant_despawn" ]
+				}
+			}
+		}
+	}
+}

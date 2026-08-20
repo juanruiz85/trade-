@@ -1,0 +1,32 @@
+{"format_version":2,"header":{"name":"pack.name","description":"pack.description","uuid":"0eca89b6-c3d9-4c7f-9b6a-b9ef82adc047","pack_scope":"world","version":[1,0,2],"min_engine_version":[1,21,40]},"modules":[{"type":"resources","uuid":"b8536f58-e4f1-44b5-8bb0-54a88613d3de","version":[1,0,2]}],"dependencies":[{"uuid":"ff36aab1-d9e1-40ff-89fd-18dbadda4422","version":[1,0,2]}],"metadata":{"product_type":"addon"},
+"settings": [
+        {
+           "type": "label",
+           "text": " §6Panda's Community"
+        },
+        {
+            "type": "label",
+            "text": " "
+        },
+        {
+            "type": "label",
+            "text": "==========================================================================================="
+        },
+        {
+            "type": "label",
+            "text": "                                \u00a75\u00a7l@Panda's Community"
+        },
+        {
+            "type": "label",
+            "text": "Info"
+        },
+        {
+            "type": "label",
+            "text": "Given §6by Panda's"
+        },
+        {
+            "type": "label",
+            "text": "==========================================================================================="
+        }
+    ]
+}

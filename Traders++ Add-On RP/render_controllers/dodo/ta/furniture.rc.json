@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.dodo_ta.furniture": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "is_hurt_color": {},
+      "on_fire_color": {}
+    },
+    "controller.render.dodo_ta.furniture_camera": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+	  "uv_anim": {
+		  "offset": [ 0.0, "math.mod(math.floor(q.life_time * 2), 2) / 2" ],
+		  "scale": [ 1.0, "1 / 2" ]
+	  }
+    }
+  }
+}

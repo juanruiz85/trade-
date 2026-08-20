@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_plant_5",
+			"spawn_egg": {
+				"texture": "dodo_ta_plant",
+				"texture_index": 5
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.plant_5"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/plant/5"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

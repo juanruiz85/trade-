@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dodo_ta:guide"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#E"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:book"
+            },
+            "E": {
+                "item": "minecraft:emerald"
+            }
+        },
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		},
+        "result": {
+            "item": "dodo_ta:guide",
+            "count": 1
+        }
+    }
+}

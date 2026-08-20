@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_dark_oak_bench",
+			"spawn_egg": {
+				"texture": "dodo_ta_bench",
+				"texture_index": 5
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.furniture_bench"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/bench/dark_oak"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_oak_dresser",
+			"spawn_egg": {
+				"texture": "dodo_ta_dresser",
+				"texture_index": 0
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.furniture_dresser"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/dresser/oak"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

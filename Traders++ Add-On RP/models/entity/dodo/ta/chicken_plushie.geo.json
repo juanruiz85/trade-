@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.chicken_plushie",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-2.5, 0, -1], "size": [5, 7, 4], "uv": [0, 0]},
+						{"origin": [-3.5, 2, 0], "size": [1, 4, 3], "uv": [12, 17]},
+						{"origin": [-1.5, 5, -2], "size": [3, 5, 3], "uv": [0, 11]},
+						{"origin": [-1.5, 7, -4], "size": [3, 1, 2], "uv": [18, 0]},
+						{"origin": [-0.5, 6, -3], "size": [1, 1, 1], "uv": [18, 3]},
+						{"origin": [-2, 0.1, -2.75], "size": [3, 3, 3], "pivot": [-1.5, 2, 3], "rotation": [0, 22.5, 0], "uv": [12, 11]},
+						{"origin": [-1, 0.1, -2.75], "size": [3, 3, 3], "pivot": [1.5, 2, 3], "rotation": [0, -22.5, 0], "uv": [12, 11], "mirror": true},
+						{"origin": [2.5, 2, 0], "size": [1, 4, 3], "uv": [12, 17], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

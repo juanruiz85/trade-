@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dodo_ta.rainbow_unicorn": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [ "idle" ],
+					"transitions": [
+						{ "walk": "query.modified_move_speed >= 0.1" },
+						{ "fly": "query.has_rider" }
+					]
+				},
+				"walk": {
+					"animations": [ "walk" ],
+					"transitions": [
+						{ "default": "query.modified_move_speed < 0.1" },
+						{ "fly": "query.has_rider" }
+					]
+				},
+				"fly": {
+					"animations": [ "fly" ],
+					"transitions": [
+						{ "default": "!query.has_rider" }
+					],
+					"blend_transition": 0.3
+				}
+			}
+		}
+	}
+}

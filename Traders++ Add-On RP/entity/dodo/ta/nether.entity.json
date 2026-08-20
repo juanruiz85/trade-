@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:nether_trader",
+			"spawn_egg": {
+				"base_color": "#941E17",
+				"overlay_color": "#51251E"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.nether"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/nether"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"move": "animation.dodo_ta.nether.move",
+				"idle": "animation.dodo_ta.nether.idle"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

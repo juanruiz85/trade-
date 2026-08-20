@@ -1,0 +1,68 @@
+{
+  "format_version": [1, 1, 0],
+  
+  "dodo_ta:mini_crafting_table": {
+    "textures": "dodo_ta_mini_crafting_table",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_diamond_block": {
+    "textures": "dodo_ta_mini_diamond_block",
+    "sound": "metal"
+  },
+  "dodo_ta:mini_emerald_block": {
+    "textures": "dodo_ta_mini_emerald_block",
+    "sound": "metal"
+  },
+  "dodo_ta:mini_gold_block": {
+    "textures": "dodo_ta_mini_gold_block",
+    "sound": "metal"
+  },
+  "dodo_ta:mini_hay_bale": {
+    "textures": "dodo_ta_mini_hay_bale",
+    "sound": "grass"
+  },
+  "dodo_ta:mini_iron_block": {
+    "textures": "dodo_ta_mini_iron_block",
+    "sound": "metal"
+  },
+  "dodo_ta:mini_acacia_log": {
+    "textures": "dodo_ta_mini_acacia_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_birch_log": {
+    "textures": "dodo_ta_mini_birch_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_cherry_log": {
+    "textures": "dodo_ta_mini_cherry_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_dark_oak_log": {
+    "textures": "dodo_ta_mini_dark_oak_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_jungle_log": {
+    "textures": "dodo_ta_mini_jungle_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_mangrove_log": {
+    "textures": "dodo_ta_mini_mangrove_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_oak_log": {
+    "textures": "dodo_ta_mini_oak_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_spruce_log": {
+    "textures": "dodo_ta_mini_spruce_log",
+    "sound": "wood"
+  },
+  "dodo_ta:mini_polished_andesite": {
+    "textures": "dodo_ta_mini_polished_andesite",
+    "sound": "stone"
+  },
+  "dodo_ta:mini_shroomlight": {
+    "textures": "dodo_ta_mini_shroomlight",
+    "sound": "shroomlight"
+  }
+}

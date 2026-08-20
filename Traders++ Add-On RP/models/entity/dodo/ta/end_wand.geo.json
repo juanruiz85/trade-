@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.end_wand",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "pole",
+					"pivot": [0, 25, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "bb_main",
+					"parent": "pole",
+					"pivot": [0, -10, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-1, -9, -1], "size": [2, 23.7, 2], "uv": [22, 27]},
+						{"origin": [-1.5, -9.5, -1.5], "size": [3, 3, 3], "uv": [12, 8]},
+						{"origin": [0, -13.5, -5.5], "size": [0, 11, 11], "pivot": [0, -8, 0], "rotation": [-45, 0, 0], "uv": [0, 16]},
+						{"origin": [-1.5, 12.5, -1.5], "size": [3, 4, 3], "uv": [0, 8]},
+						{"origin": [0, 13.5, -7.5], "size": [0, 12, 15], "uv": [0, 0]},
+						{"origin": [-1, -11.5, -1], "size": [2, 2, 2], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "eye",
+					"parent": "bb_main",
+					"pivot": [0, 21.5, 0],
+					"cubes": [
+						{"origin": [-2, 19.5, -2], "size": [4, 4, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

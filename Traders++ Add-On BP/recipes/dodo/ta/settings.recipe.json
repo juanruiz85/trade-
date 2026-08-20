@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dodo_ta:settings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "IEI"
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_nugget"
+            },
+            "E": {
+                "item": "minecraft:emerald"
+            }
+        },
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		},
+        "result": {
+            "item": "dodo_ta:settings",
+            "count": 1
+        }
+    }
+}

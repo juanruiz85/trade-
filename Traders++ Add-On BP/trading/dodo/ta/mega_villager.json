@@ -1,0 +1,159 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": -1,
+         "groups": [
+            {
+               "num_to_select": 1,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:emerald", "quantity": { "min": 24, "max": 32, "price_multiplier": 0.05 } } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "dodo_ta:villager_claymore", "quantity": 1 } ]
+                  }
+               ]
+            },
+            {
+               "num_to_select": 20,
+               "trades": [
+                  {
+                     "wants": [ { "item": "minecraft:stick", "quantity": { "min": 28, "max": 40 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:wheat", "quantity": { "min": 18, "max": 22 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:potato", "quantity": { "min": 22, "max": 30 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:carrot", "quantity": { "min": 20, "max": 24 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:beetroot", "quantity": { "min": 15, "max": 20 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:rotten_flesh", "quantity": { "min": 30, "max": 34 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:pumpkin", "quantity": { "min": 5, "max": 7 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:melon_block", "quantity": { "min": 3, "max": 5 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:stone", "quantity": { "min": 18, "max": 22 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:clay", "quantity": { "min": 8, "max": 12 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:wool", "quantity": { "min": 16, "max": 20 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:coal", "quantity": { "min": 15, "max": 20 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:iron_ingot", "quantity": { "min": 4, "max": 6 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:paper", "quantity": { "min": 24, "max": 36 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:string", "quantity": { "min": 14, "max": 20 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:pumpkin_pie", "quantity": 1, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:book", "quantity": { "min": 4, "max": 6 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:ink_sac", "quantity": { "min": 5, "max": 10 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:lava_bucket", "quantity": 1, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:diamond", "quantity": { "min": 1, "max": 2 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:cod", "quantity": { "min": 6, "max": 10 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:salmon", "quantity": { "min": 6, "max": 10 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:glass_pane", "quantity": { "min": 10, "max": 16 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:compass", "quantity": 1, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:flint", "quantity": { "min": 20, "max": 26 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:gold_ingot", "quantity": { "min": 2, "max": 4 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:ender_pearl", "quantity": 1, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:porkchop", "quantity": { "min": 7, "max": 12 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:chicken", "quantity": { "min": 8, "max": 12 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:dried_kelp_block", "quantity": { "min": 5, "max": 8 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:feather", "quantity": { "min": 24, "max": 32 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:arrow", "quantity": { "min": 10, "max": 20 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:hardened_clay", "quantity": { "min": 8, "max": 12 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  },
+                  {
+                     "wants": [ { "item": "minecraft:quartz_block", "quantity": { "min": 4, "max": 6 }, "price_multiplier": 0.05 } ],
+                     "gives": [ { "max_uses": 9999, "reward_exp": true, "item": "minecraft:emerald", "quantity": 1 } ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

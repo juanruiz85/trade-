@@ -1,0 +1,49 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.treasure_chest_00",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 5.83333, -1.66667],
+					"rotation": [-180, 0, 180],
+					"cubes": [
+						{"origin": [-6, 0, -8], "size": [12, 6, 9], "uv": [207, 2]},
+						{"origin": [-7, 6, -9], "size": [14, 4, 11], "uv": [203, 24]},
+						{"origin": [-1.5, 4.5, 1], "size": [3, 4, 2], "uv": [203, 24]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.treasure_chest_01",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 2.33333, -1.66667],
+					"rotation": [-167.68406, -2.15393, -170.23242],
+					"cubes": [
+						{"origin": [-6, -3.5, -8], "size": [12, 6, 9], "uv": [207, 2]},
+						{"origin": [-7, 2.5, -9], "size": [14, 4, 11], "uv": [203, 24]},
+						{"origin": [-1.5, 1, 1], "size": [3, 4, 2], "uv": [203, 24]}
+					]
+				}
+			]
+		}
+	]
+}

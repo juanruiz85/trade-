@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.quad.move": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"bb_main": {
+					"rotation": {
+						"0.0": [0, 0, -1],
+						"0.25": [0, 0, 1],
+						"0.5": [0, 0, -1]
+					}
+				},
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				},
+				"bone5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [270, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.quad.steer": {
+			"loop": true,
+			"bones": {
+				"bone4": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				},
+				"bone3": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				},
+				"steer": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				}
+			}
+		}
+	}
+}

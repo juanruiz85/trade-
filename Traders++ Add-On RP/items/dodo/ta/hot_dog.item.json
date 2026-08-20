@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_hot_dog",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_hot_dog",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

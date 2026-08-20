@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:ocean_trader",
+			"spawn_egg": {
+				"base_color": "#D29212",
+				"overlay_color": "#A1FFF5"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.ocean"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/ocean"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move_ocean",
+				"move": "animation.dodo_ta.ocean.move",
+				"idle_water": "animation.dodo_ta.ocean.idle_water",
+				"idle": "animation.dodo_ta.ocean.idle"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

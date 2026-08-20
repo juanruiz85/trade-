@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:scimitar",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "anim_00": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_01": "textures/dodo/ta/weapons/scimitar/1",
+        "anim_02": "textures/dodo/ta/weapons/scimitar/2",
+        "anim_03": "textures/dodo/ta/weapons/scimitar/3",
+        "anim_04": "textures/dodo/ta/weapons/scimitar/4",
+        "anim_05": "textures/dodo/ta/weapons/scimitar/5",
+        "anim_06": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_07": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_08": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_09": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_10": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_11": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_12": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_13": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_14": "textures/dodo/ta/weapons/scimitar/0",
+        "anim_15": "textures/dodo/ta/weapons/scimitar/0",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.scimitar"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.wield.fp",
+        "wield_third_person": "animation.dodo_ta.wield.tp"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.dodo_ta.anim_16" ]
+    }
+  }
+}

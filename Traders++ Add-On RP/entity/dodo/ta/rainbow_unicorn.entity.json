@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:rainbow_unicorn",
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#FF55FF"
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.rainbow_unicorn"
+			],
+			"geometry": {
+				"adult": "geometry.dodo_ta.rainbow_unicorn",
+				"baby": "geometry.dodo_ta.rainbow_unicorn_baby"
+			},
+			"scripts": {
+				"animate": [
+				  "controller",
+				  "look_at_target",
+				  { "particle": "query.has_rider" }
+				]
+			},
+			"animations": {
+				"controller": "controller.animation.dodo_ta.rainbow_unicorn",
+				"walk": "animation.dodo_ta.rainbow_unicorn.walk",
+				"idle": "animation.dodo_ta.rainbow_unicorn.idle",
+				"fly": "animation.dodo_ta.rainbow_unicorn.fly",
+				"look_at_target": "animation.dodo_ta.rainbow_unicorn.look_at_target",
+				"particle": "animation.dodo_ta.rainbow_unicorn.particle"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/rainbow_unicorn"
+			},
+			"materials": {
+				"default": "experience_orb"
+			},
+			"particle_effects": {
+				"unicorn": "dodo_ta:rainbow_unicorn"
+			}
+		}
+	}
+}

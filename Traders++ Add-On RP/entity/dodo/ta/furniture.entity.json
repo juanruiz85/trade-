@@ -1,0 +1,41 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:furniture_trader",
+			"spawn_egg": {
+				"base_color": "#452B1C",
+				"overlay_color": "#8a653e"
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture_trader"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.furniture"
+			},
+			"textures": {
+				"variant_00": "textures/dodo/ta/furniture/furniture_oak",
+				"variant_01": "textures/dodo/ta/furniture/furniture_birch",
+				"variant_02": "textures/dodo/ta/furniture/furniture_spruce",
+				"variant_03": "textures/dodo/ta/furniture/furniture_jungle",
+				"variant_04": "textures/dodo/ta/furniture/furniture_acacia",
+				"variant_05": "textures/dodo/ta/furniture/furniture_dark_oak",
+				"variant_06": "textures/dodo/ta/furniture/furniture_mangrove",
+				"variant_07": "textures/dodo/ta/furniture/furniture_cherry"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"move": "animation.dodo_ta.furniture.move",
+				"idle": "animation.dodo_ta.furniture.idle"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

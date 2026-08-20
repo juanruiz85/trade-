@@ -1,0 +1,238 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.guide.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"main": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0.08808, 0],
+						"0.0833": [0, 0.41734, 0],
+						"0.1667": [0, 1.58266, 0],
+						"0.2083": [0, 1.91192, 0],
+						"0.25": [0, 2, 0],
+						"0.2917": [0, 1.90322, 0],
+						"0.3333": [0, 1.57382, 0],
+						"0.4167": [0, 0.42618, 0],
+						"0.4583": [0, 0.09678, 0],
+						"0.5": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.6, 0.6, 0.6],
+						"0.5": [1, 1, 1]
+					}
+				},
+				"book_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, 85, 0]
+					}
+				},
+				"book_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, -85, 0]
+					}
+				},
+				"page_middle": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, -10, 0],
+						"0.3333": [0, -65, 0],
+						"0.5": [0, -82.5, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1.95, 0, 0.2]
+					}
+				},
+				"page_right": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"page_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 10, 0],
+						"0.3333": [0, 65, 0],
+						"0.5": [0, 82.5, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1.95, 0, 0.2]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "page_turn"
+				}
+			}
+		},
+		"animation.dodo_ta.guide.standby": {
+			"loop": true,
+			"bones": {
+				"main": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"book_left": {
+					"rotation": [0, 85, 0]
+				},
+				"book_right": {
+					"rotation": [0, -85, 0]
+				},
+				"page_middle": {
+					"rotation": [0, -82.5, 0],
+					"position": [-1.95, 0, 0.2]
+				},
+				"page_right": {
+					"scale": 0
+				},
+				"page_left": {
+					"rotation": [0, 82.5, 0],
+					"position": [1.95, 0, 0.2]
+				}
+			}
+		},
+		"animation.dodo_ta.guide.next_page": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"bones": {
+				"main": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"book_left": {
+					"rotation": [0, 85, 0]
+				},
+				"page_middle": {
+					"rotation": {
+						"0.0": [0, -82.5, 0],
+						"0.4": [0, 82.5, 0]
+					},
+					"position": {
+						"0.0": [-1.95, 0, 0.2],
+						"0.2": [0, 0, 1.95],
+						"0.4": [1.95, 0, 0.2]
+					}
+				},
+				"book_right": {
+					"rotation": [0, -85, 0]
+				},
+				"page_right": {
+					"rotation": {
+						"0.0": [0, -85, 0],
+						"0.1": [0, -82.5, 0],
+						"0.4": [0, -82.5, 0]
+					},
+					"position": {
+						"0.0": [-1.95, 0, 0.1],
+						"0.1": [-1.95, 0, 0.2],
+						"0.4": [-1.95, 0, 0.2]
+					}
+				},
+				"page_left": {
+					"rotation": {
+						"0.0": [0, 82.5, 0],
+						"0.3": [0, 82.5, 0],
+						"0.4": [0, 85, 0]
+					},
+					"position": {
+						"0.0": [1.95, 0, 0.2],
+						"0.3": [1.95, 0, 0.2],
+						"0.4": [1.95, 0, 0.1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "page_turn"
+				}
+			}
+		},
+		"animation.dodo_ta.guide.previous_page": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"bones": {
+				"main": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"book_left": {
+					"rotation": [0, 85, 0]
+				},
+				"page_middle": {
+					"rotation": {
+						"0.0": [0, 82.5, 0],
+						"0.4": [0, -82.5, 0]
+					},
+					"position": {
+						"0.0": [1.95, 0, 0.2],
+						"0.2": [0, 0, 1.95],
+						"0.4": [-1.95, 0, 0.2]
+					}
+				},
+				"book_right": {
+					"rotation": [0, -85, 0]
+				},
+				"page_right": {
+					"rotation": {
+						"0.0": [0, -82.5, 0],
+						"0.3": [0, -82.5, 0],
+						"0.4": [0, -85, 0]
+					},
+					"position": {
+						"0.0": [-1.95, 0, 0.2],
+						"0.3": [-1.95, 0, 0.2],
+						"0.4": [-1.95, 0, 0.1]
+					}
+				},
+				"page_left": {
+					"rotation": {
+						"0.0": [0, 85, 0],
+						"0.1": [0, 82.5, 0],
+						"0.4": [0, 82.5, 0]
+					},
+					"position": {
+						"0.0": [1.95, 0, 0.1],
+						"0.1": [1.95, 0, 0.2],
+						"0.4": [1.95, 0, 0.2]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "page_turn"
+				}
+			}
+		},
+		"animation.dodo_ta.guide.wield.fp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [84.32805, 61.0955, -55.01904],
+					"position": [2, -69, -42.25],
+					"scale": 3.5
+				}
+			}
+		},
+		"animation.dodo_ta.guide.wield.tp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [90, 0, 12.5],
+					"position": [1.5, 0.7, -14.5],
+					"scale": 0.5
+				},
+				"main": {
+					"position": [-1, -1, -8]
+				}
+			}
+		}
+	}
+}

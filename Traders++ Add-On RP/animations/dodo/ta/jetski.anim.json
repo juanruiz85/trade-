@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.jetski.idle": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [0, 0, "Math.cos(query.anim_time*100)*5"]
+				}
+			}
+		},
+		"animation.dodo_ta.jetski.move": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-5, 0, 0]
+					}
+				},
+				"steer": {
+					"rotation": [0, "Math.clamp(query.yaw_speed * 0.3, -10, 10)", 0]
+				}
+			}
+		},
+		"animation.dodo_ta.jetski.water_fix": {
+			"loop": true,
+			"bones": {
+				"Main_bone": {
+					"position": [0, 5, 0]
+				}
+			}
+		}
+	}
+}

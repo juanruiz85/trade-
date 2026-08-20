@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:enchanting_trader",
+			"spawn_egg": {
+				"base_color": "#99172C",
+				"overlay_color": "#F2C039"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.enchanting"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/enchanting"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"move": "animation.dodo_ta.enchanting.move",
+				"idle": "animation.dodo_ta.enchanting.idle"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

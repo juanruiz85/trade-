@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:food_milkshake",
+	  "category": "items"
+    },
+    
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "normal",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1.0,
+            "duration": 30,
+            "amplifier": 0
+          }
+        ]
+      }
+    }
+  }
+}

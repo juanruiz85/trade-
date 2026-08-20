@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.jetski",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "Main_bone",
+					"pivot": [0, -0.10274, 0.90987],
+					"cubes": [
+						{"origin": [-5, 0, -11], "size": [10, 3, 21], "uv": [0, 0]},
+						{"origin": [-2.5, 3.89023, 0.99768], "size": [5, 2, 8], "inflate": 0.01, "pivot": [0, 1.39023, -0.00232], "rotation": [12.5, 0, 0], "uv": [41, 0]},
+						{"origin": [-2.5, 3, -8], "size": [5, 3, 16], "uv": [0, 24]},
+						{"origin": [2.5, 0, -10], "size": [2, 3, 10], "pivot": [0, 1.4, 0], "rotation": [-15, 0, 0], "uv": [32, 40]},
+						{"origin": [-4.5, 0, -10], "size": [2, 3, 10], "pivot": [0, 1.4, 0], "rotation": [-15, 0, 0], "uv": [32, 40], "mirror": true}
+					]
+				},
+				{
+					"name": "steer",
+					"parent": "bone",
+					"pivot": [0, 3.35043, -9.33745]
+				},
+				{
+					"name": "bone2",
+					"parent": "steer",
+					"pivot": [0, 3.35043, -9.33745],
+					"rotation": [-10, 0, 0],
+					"cubes": [
+						{"origin": [-3, 9.07537, -9.76652], "size": [6, 4, 12], "pivot": [0, 3.57537, -1.26652], "rotation": [55, 0, 0], "uv": [26, 24]},
+						{"origin": [-1, 10.07537, 2.23348], "size": [2, 2, 2], "pivot": [0, 3.57537, -1.26652], "rotation": [55, 0, 0], "uv": [0, 4]},
+						{"origin": [0.5, 11.8258, -4.40397], "size": [4, 2, 2], "inflate": -0.5, "pivot": [3, 10.8258, -2.90397], "rotation": [55, 0, 0], "uv": [0, 0]},
+						{"origin": [-4.5, 11.8258, -4.40397], "size": [4, 2, 2], "inflate": -0.5, "pivot": [-3, 10.8258, -2.90397], "rotation": [55, 0, 0], "uv": [0, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

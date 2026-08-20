@@ -1,0 +1,56 @@
+{
+  "resource_pack_name": "DODOTA",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+      "dodo_ta_mini_crafting_table": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_crafting_table"
+    },
+      "dodo_ta_mini_diamond_block": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_diamond_block"
+    },
+      "dodo_ta_mini_emerald_block": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_emerald_block"
+    },
+      "dodo_ta_mini_gold_block": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_gold_block"
+    },
+      "dodo_ta_mini_hay_bale": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_hay_bale"
+    },
+      "dodo_ta_mini_iron_block": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_iron_block"
+    },
+      "dodo_ta_mini_acacia_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_acacia_log"
+    },
+      "dodo_ta_mini_birch_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_birch_log"
+    },
+      "dodo_ta_mini_cherry_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_cherry_log"
+    },
+      "dodo_ta_mini_dark_oak_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_dark_oak_log"
+    },
+      "dodo_ta_mini_jungle_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_jungle_log"
+    },
+      "dodo_ta_mini_mangrove_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_mangrove_log"
+    },
+      "dodo_ta_mini_oak_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_oak_log"
+    },
+      "dodo_ta_mini_spruce_log": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_spruce_log"
+    },
+      "dodo_ta_mini_polished_andesite": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_polished_andesite"
+    },
+      "dodo_ta_mini_shroomlight": {
+      "textures": "textures/dodo/ta/mini_blocks/mini_shroomlight"
+    }
+  }
+}

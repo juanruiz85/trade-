@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_apple_juice",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_apple_juice",
+			"minecraft:use_animation": "drink"
+		}
+	}
+}

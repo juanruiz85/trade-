@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:flamebrand_01",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "anim_00": "textures/dodo/ta/weapons/flamebrand/01_0",
+        "anim_01": "textures/dodo/ta/weapons/flamebrand/01_1",
+        "anim_02": "textures/dodo/ta/weapons/flamebrand/01_2",
+        "anim_03": "textures/dodo/ta/weapons/flamebrand/01_3",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.flamebrand_01"
+      },
+      "animations": {
+        "wield_first_person": "animation.dodo_ta.wield.fp",
+        "wield_third_person": "animation.dodo_ta.wield.tp"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_first_person": "c.is_first_person && c.item_slot == 'main_hand'" },
+          { "wield_third_person": "!c.is_first_person && c.item_slot == 'main_hand'" }
+        ]
+      },
+      "render_controllers": [ "controller.render.dodo_ta.anim_4" ]
+    }
+  }
+}

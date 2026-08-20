@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.dodo_ta.use_c": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "use": "query.is_using_item"
+                        }
+                    ]
+                },
+                "use": {
+					"animations" : [ "use" ],
+                    "transitions": [
+                        {
+                            "default": "query.all_animations_finished && !query.is_using_item"
+                        }
+					]
+				}
+			}
+        }
+    }
+}

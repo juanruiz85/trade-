@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.bee_plushie",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 3, -1],
+					"cubes": [
+						{"origin": [-3, -0.44001, -4.84094], "size": [6, 6, 9], "pivot": [0, 2.55999, 0.15906], "rotation": [-7.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-1, 2.55999, -7.84094], "size": [2, 3, 3], "pivot": [0, 2.55999, 0.15906], "rotation": [-7.5, 0, 0], "uv": [22, 26]},
+						{"origin": [-7.86598, 6.13804, -3.84448], "size": [6, 0, 9], "pivot": [-4.86598, 6.13804, 0.65552], "rotation": [-19.76705, -32.67625, 26.32097], "uv": [0, 15]},
+						{"origin": [1.86598, 6.13804, -3.84448], "size": [6, 0, 9], "pivot": [4.86598, 6.13804, 0.65552], "rotation": [-19.76705, 32.67625, -26.32097], "uv": [0, 15], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

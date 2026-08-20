@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:vehicles_boat_0",
+			"spawn_egg": {
+				"texture": "dodo_ta_vehicles",
+				"texture_index": 2
+			},
+			"render_controllers": [
+				"controller.render.dodo_ta.furniture"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.boat"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/boat/0"
+			},
+			"scripts": {
+				"animate": [
+					{ "idle": "!query.is_moving && query.is_in_water" },
+					"steer",
+					{ "water_fix": "query.is_in_water" }
+				]
+			},
+			"animations": {
+				"idle": "animation.dodo_ta.boat.idle",
+				"steer": "animation.dodo_ta.boat.steer",
+				"water_fix": "animation.dodo_ta.boat.water_fix"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

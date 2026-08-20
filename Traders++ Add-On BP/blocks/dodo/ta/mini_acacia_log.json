@@ -1,0 +1,39 @@
+{
+	"format_version": "1.19.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dodo_ta:mini_acacia_log",
+			"register_to_creative_menu": true,
+			"is_experimental": false,
+            "menu_category": {
+                "category": "construction"
+            }
+		},
+		"components": {
+			"minecraft:geometry": "geometry.dodo_ta.mini_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dodo_ta_mini_acacia_log",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:light_emission": 0,
+			"minecraft:light_dampening": 4,
+			"minecraft:map_color": "#707070",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.35
+            },
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 8, 8]
+			},
+			"minecraft:collision_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 8, 8]
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dodo_ta:flamebrand_01",
+	  "menu_category": {
+        "category": "equipment", 
+        "is_hidden_in_commands": false 
+	  }
+    },
+
+    "components": {
+	  "tag:minecraft:is_sword": {},
+	  "minecraft:damage": { "value": 14 },
+	  "minecraft:icon": { "texture": "dodo_ta_flamebrand_01" },
+	  "minecraft:can_destroy_in_creative": false,
+	  "minecraft:max_stack_size": 1,
+	  "minecraft:cooldown":{
+		"category" : "dodo_ta_flamebrand",
+		"duration" : 0.5
+	  },
+      "minecraft:use_duration": 9999,
+	  "minecraft:interact_button": "dodo.studios.ta.use.flamebrand",
+      "minecraft:food": { "can_always_eat": true, "nutrition": 0 },
+	  "minecraft:digger": {
+        "destroy_speeds": [
+		  { "speed": 15, "block": "minecraft:web" }
+        ]
+	  }
+	}
+  }
+}

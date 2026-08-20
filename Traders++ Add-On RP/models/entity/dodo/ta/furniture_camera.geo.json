@@ -1,0 +1,42 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.furniture_camera",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 6, 7],
+					"cubes": [
+						{"origin": [-2, 5, -2], "size": [4, 2, 8], "uv": [19, 17]},
+						{"origin": [-2.5, 2, 6], "size": [5, 8, 2], "uv": [22, 0]}
+					]
+				},
+				{
+					"name": "hinge",
+					"parent": "Main_bone",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-1.5, 7, -1.5], "size": [3, 2, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Camera",
+					"parent": "hinge",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-2, 8, -7], "size": [4, 4, 11], "pivot": [0, 10, -1.5], "rotation": [15, 0, 0], "uv": [0, 17]},
+						{"origin": [-2.5, 7.5, -7.5], "size": [5, 5, 12], "pivot": [0, 10, -1.5], "rotation": [15, 0, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

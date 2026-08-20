@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dodo_ta:mega_villager_trader",
+			"spawn_egg": {
+				"base_color": "#B57B67",
+				"overlay_color": "#75472F"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"geometry": {
+				"default": "geometry.dodo_ta.mega_villager"
+			},
+			"textures": {
+				"default": "textures/dodo/ta/mega_villager"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"attack_controller"
+				]
+			},
+			"animations": {
+				"move_controller": "controller.animation.dodo_ta.move",
+				"attack_controller": "controller.animation.dodo_ta.attack",
+				"move": "animation.dodo_ta.mega_villager.move",
+				"idle": "animation.dodo_ta.mega_villager.idle",
+				"attack": "animation.dodo_ta.mega_villager.attack"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

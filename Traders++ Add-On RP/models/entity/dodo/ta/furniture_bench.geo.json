@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dodo_ta.furniture_bench",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main_bone",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "Main_bone",
+					"pivot": [0, 7.5, 0.5],
+					"cubes": [
+						{"origin": [-14, 0, 3], "size": [2, 7, 2], "uv": [0, 24], "mirror": true},
+						{"origin": [-12, 7, -7], "size": [24, 1, 3], "uv": [0, 0]},
+						{"origin": [-12, 7, -3], "size": [24, 1, 3], "uv": [0, 4]},
+						{"origin": [-12, 7, 1], "size": [24, 1, 3], "uv": [0, 8]},
+						{"origin": [-12, 10.5, -9], "size": [24, 1, 3], "pivot": [0, 7.5, 0.5], "rotation": [-100, 0, 0], "uv": [0, 4]},
+						{"origin": [-12, 10.5, -13], "size": [24, 1, 3], "pivot": [0, 7.5, 0.5], "rotation": [-100, 0, 0], "uv": [0, 0]},
+						{"origin": [-12, 10.5, -5], "size": [24, 1, 3], "pivot": [0, 7.5, 0.5], "rotation": [-100, 0, 0], "uv": [0, 8]},
+						{"origin": [12, 7, -8], "size": [2, 2, 13], "uv": [36, 24]},
+						{"origin": [12, 12, -8], "size": [2, 2, 13], "uv": [19, 27]},
+						{"origin": [13, 9, -8], "size": [0, 3, 12], "uv": [18, 12]},
+						{"origin": [12, 10, -14], "size": [2, 2, 14], "inflate": -0.01, "pivot": [0, 7.5, 0.5], "rotation": [-100, 0, 0], "uv": [0, 24]},
+						{"origin": [12, 0, 3], "size": [2, 7, 2], "uv": [0, 24]},
+						{"origin": [12, 0, -8], "size": [2, 7, 2], "uv": [18, 27]},
+						{"origin": [-14, 0, -8], "size": [2, 7, 2], "uv": [18, 27], "mirror": true},
+						{"origin": [-14, 7, -8], "size": [2, 2, 13], "uv": [36, 24], "mirror": true},
+						{"origin": [-13, 9, -8], "size": [0, 3, 12], "uv": [18, 12], "mirror": true},
+						{"origin": [-14, 12, -8], "size": [2, 2, 13], "uv": [19, 27], "mirror": true},
+						{"origin": [-14, 10, -14], "size": [2, 2, 14], "inflate": -0.01, "pivot": [0, 7.5, 0.5], "rotation": [-100, 0, 0], "uv": [0, 24], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.dual_pickaxe.tp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [90, 0, 90],
+					"position": [0.5, -0.3, -20.5],
+					"scale": 1
+				},
+				"bb_main": {
+					"position": [-1, 2, 0.5]
+				}
+			}
+		},
+		"animation.dodo_ta.dual_pickaxe.fp": {
+			"loop": true,
+			"bones": {
+				"pole": {
+					"rotation": [158, 0, 25],
+					"position": [0, -64, 8.5],
+					"scale": 2.7
+				},
+				"Sword": {
+					"rotation": [-553.51049, -8.58204, -658.615],
+					"position": [-6, 2, 24]
+				}
+			}
+		}
+	}
+}

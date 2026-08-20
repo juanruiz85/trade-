@@ -1,0 +1,115 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dodo_ta:rainbow_trader",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+        },
+        "components": {
+			"minecraft:scale": { "value": 0 },
+			"minecraft:collision_box": { "width": 0.6, "height": 1.9 },
+			"minecraft:physics": { "has_collision": true, "has_gravity": true },
+			"minecraft:type_family": { "family": [ "trader", "traders_addon" ] },
+            "minecraft:push_through": { "value": 1 },
+			"minecraft:pushable": { "is_pushable": true, "is_pushable_by_piston": true },
+            "minecraft:health": { "value": 20, "max": 20 },
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:breathable": { "total_supply": 15, "suffocate_time": 0 },
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": { "value": 0.5 },
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:persistent": {},
+			"minecraft:behavior.float": { "priority": 0 },
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.trade_with_player": { "priority": 2 },
+			"minecraft:behavior.look_at_trading_player": { "priority": 3 },
+			"minecraft:behavior.look_at_player": {
+				"priority": 4,
+				"look_distance": 8,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 5,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:preferred_path" : {
+				"max_fall_blocks" : 1,
+				"jump_cost" : 1,
+				"default_block_cost" : 2,
+				"preferred_path_blocks" : [
+					{
+						"cost" : 0,
+						"blocks" : [
+							"grass_path"
+						]
+					},
+					{
+						"cost" : 1,
+						"blocks" : [
+							"grass_block"
+						]
+					}
+				]
+			}
+        },
+		"component_groups": {
+			"standby": {
+				"minecraft:scale": { "value": 1.0 },
+				"minecraft:trade_table": { "display_name": "entity.dodo_ta:rainbow_trader.name", "table": "trading/dodo/ta/rainbow.json", "new_screen": true, "persist_trades": true, "convert_trades_economy": false }
+			},
+			"walk_unicorn": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"min_wait_time": 0,
+							"max_wait_time": 0,
+							"spawn_entity": "dodo_ta:rainbow_unicorn",
+							"spawn_event": "minecraft:entity_spawned",
+							"single_use": true,
+							"num_to_spawn": 1,
+							"should_leash": true
+						}
+					]
+				}
+			},
+			"minecraft:instant_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"events": {
+			"dodo_ta:standby": {
+				"randomize": [
+					{ "weight": 50, "add": { "component_groups": [ "standby" ]}},
+					{ "weight": 50, "add": { "component_groups": [ "standby", "walk_unicorn" ]}}
+				]
+			},
+			"minecraft:instant_despawn": {
+				"add": {
+					"component_groups": [ "minecraft:instant_despawn" ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "dodo_ta:torch_helmet",
+      "materials": {
+        "default": "entity_emissive_alpha",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/dodo/ta/torch_helmet",
+        "enchanted": "textures/attachables/enchanted_glint"
+      },
+      "geometry": {
+        "default": "geometry.dodo_ta.torch_helmet"
+      },
+      "animations": {
+		"wear": "animation.dodo_ta.helmet.wear"
+      },
+      "scripts": {
+        "animate": [
+		  "wear"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

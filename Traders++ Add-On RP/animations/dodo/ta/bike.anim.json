@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dodo_ta.bike.move": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"trapper_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"pedaal_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-360, 0, 0]
+					}
+				},
+				"trapper_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"pedaal_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-360, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dodo_ta.bike.steer": {
+			"loop": true,
+			"bones": {
+				"fiets": {
+					"rotation": [0, 0, "math.clamp(query.yaw_speed * 0.5, -5, 5)"]
+				},
+				"steer": {
+					"rotation": [0, "math.clamp(query.yaw_speed * 0.5, -45, 45)", 0]
+				}
+			}
+		}
+	}
+}

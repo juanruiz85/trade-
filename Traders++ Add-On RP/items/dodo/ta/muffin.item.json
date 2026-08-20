@@ -1,0 +1,13 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dodo_ta:food_muffin",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "dodo_ta_muffin",
+			"minecraft:use_animation": "eat"
+		}
+	}
+}
